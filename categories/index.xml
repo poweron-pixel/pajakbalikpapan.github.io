@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Layanan Pajak Balikpapan</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Layanan Pajak Balikpapan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Jan 2021 13:07:54 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PenagihanPajak</title>
+      <link>/categories/penagihanpajak/</link>
+      <pubDate>Wed, 06 Jan 2021 13:07:54 +0800</pubDate>
+      
+      <guid>/categories/penagihanpajak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sengketa Pajak</title>
+      <link>/categories/sengketa-pajak/</link>
+      <pubDate>Wed, 06 Jan 2021 13:07:19 +0800</pubDate>
+      
+      <guid>/categories/sengketa-pajak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>layananadministrasi</title>
+      <link>/categories/layananadministrasi/</link>
+      <pubDate>Wed, 06 Jan 2021 13:06:02 +0800</pubDate>
+      
+      <guid>/categories/layananadministrasi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pemeriksaan</title>
+      <link>/categories/pemeriksaan/</link>
+      <pubDate>Wed, 06 Jan 2021 13:03:58 +0800</pubDate>
+      
+      <guid>/categories/pemeriksaan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pelaporanspt</title>
+      <link>/categories/pelaporanspt/</link>
+      <pubDate>Wed, 06 Jan 2021 13:02:12 +0800</pubDate>
+      
+      <guid>/categories/pelaporanspt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pembayaran</title>
+      <link>/categories/pembayaran/</link>
+      <pubDate>Wed, 06 Jan 2021 13:00:26 +0800</pubDate>
+      
+      <guid>/categories/pembayaran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pembukuan</title>
+      <link>/categories/pembukuan/</link>
+      <pubDate>Wed, 06 Jan 2021 12:58:20 +0800</pubDate>
+      
+      <guid>/categories/pembukuan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Registrasi</title>
+      <link>/categories/registrasi/</link>
+      <pubDate>Wed, 06 Jan 2021 12:56:09 +0800</pubDate>
+      
+      <guid>/categories/registrasi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
