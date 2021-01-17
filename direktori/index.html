@@ -12,7 +12,7 @@
   
 
     
-    <link rel="stylesheet" href="/css/styles.min.30a346f8b84635ed34d2848fad430fbbd145f1ec68a71c7e3cc781bb258900d7.css">
+    <link rel="stylesheet" href="/css/styles.min.47f42ad27e7f312e475f01e48d725df2a16fb5189d6f2e532593464d3fa64da7.css">
 
 
   <meta charset="utf-8">
@@ -88,24 +88,25 @@
             </h1>
           </a>
           <button class="rounded-xl md:hidden focus:outline-none fill-current text-gray-700" @click="open = !open">
-              <svg viewBox="0 0 20 20" class="w-12 h-12">
-                  <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-                  <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" style="display: none;"></path>
+              <svg class="text-gray-700 stroke-current" role="img" xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 24 24" aria-labelledby="statsIconTitle" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" fill="none" color="#2329D6"> 
+                <title id="statsIconTitle">Stats</title>
+                <path x-show="open" d="M6.34314575 6.34314575L17.6568542 17.6568542M6.34314575 17.6568542L17.6568542 6.34314575"/>  
+                <path x-show="!open" d="M6 7L15 7M6 12L18 12M6 17L12 17"/> 
               </svg>
           </button>
       </div>
       <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden px-5 pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
           
         
-          <a class="inline-flex items-center p-3 font-semibold text-gray-700 transition duration-500 ease-in-out transform rounded-xl md:w-auto font-lg focus:outline-none hover:text-blue-900" href="/direktori/">
+          <a class="inline-flex items-center p-3  text-black transition duration-500 ease-in-out transform rounded-xl md:w-auto focus:outline-none hover:text-blue-900" href="/direktori/">
               Direktori
           </a>
           
-          <a class="inline-flex items-center p-3 font-semibold text-gray-700 transition duration-500 ease-in-out transform rounded-xl md:w-auto font-lg focus:outline-none hover:text-blue-900" href="/pricing/">
+          <a class="inline-flex items-center p-3  text-black transition duration-500 ease-in-out transform rounded-xl md:w-auto focus:outline-none hover:text-blue-900" href="/pricing/">
               Harga
           </a>
           
-          <a class="inline-flex items-center p-3 font-semibold text-gray-700 transition duration-500 ease-in-out transform rounded-xl md:w-auto font-lg focus:outline-none hover:text-blue-900" href="/contact/">
+          <a class="inline-flex items-center p-3  text-black transition duration-500 ease-in-out transform rounded-xl md:w-auto focus:outline-none hover:text-blue-900" href="/contact/">
               Kontak
           </a>
           
@@ -115,113 +116,142 @@
       <div class="py-12 bg-white">
         <div class="max-w-7xl mx-auto">
           
+<section class="body-font">
+  <div class="container mx-auto flex flex-col px-5 py-10 justify-center items-center">
+    <div class="w-full md:w-2/3 flex flex-col mb-8 items-center text-center">
+      <svg role="img" xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 24 24" aria-labelledby="newsIconTitle" stroke="#2329D6" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" fill="none" color="#2329D6"> <title id="newsIconTitle">News</title> <path d="M22 5L22 17C22 18.3333333 21.3333333 19 20 19 18.6666667 19 18 18.3333333 18 17L18 5 2 5 2 16C2 18 3 19 5 19 7 19 12 19 20 19M6 14L7 14M11 14L14 14M6 10L14 10"/> </svg>
+      <h1 class="text-xl sm:text-4xl lg:text-5xl leading-none font-bold tracking-tight text-black">
+        Direktori Layanan Pajak
+      </h1>
+        <p class="text-gray-700 mt-2 mb-6 max-w-2xl">
+          lebih dari 100 jenis direktori layanan perpajakan yang dapat kami berikan yang disimpulkan dalam kategori
+        berikut</p>
+    </div>
+  </div>
+</section>
+
 <div class="select-none">
 <div class="max-w-5xl mx-auto py-2 items-center sm:py-4 title-font">
-	
   
-	<div class="mt-10 sm:mt-0 bg-yellow-50 rounded-lg">
+	<div class="mt-10 sm:mt-0 rounded-lg">
 	  <div class="md:grid md:grid-cols-5 md:gap-6  p-4">
 		<div class="md:col-span-1">
 		  <div class="px-4 sm:px-0">
 			<h3 class="text-2xl font-bold leading-6 text-gray-900">Registrasi</h3>
-			<p class="mt-1 text-sm text-gray-600">
-			  
+			<p class="mt-1 text-sm text-gray-600">			  
 			</p>
 		  </div>
 		</div>
-		<div data-aos="fade-left" class="md:mt-0 md:col-span-4 font-sans">
+		<div data-aos="fade-left" class="md:mt-0 md:col-span-4">
 			<div class="overflow-hidden">
 			  <div class="px-4 sm:px-0">
 				<ul class="grid grid-cols-1 md:grid-cols-4 gap-7"> 
 				   
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Pencabutan Sertifikat Elektronik
-				  </i>
+					
+					<a itemprop="headline" href="/direktori/registrasi/pendaftaran-awal/" class="flex items-center text-gray-900 font-bold">Pendaftaran NPWP 
+						<svg class="ml-2 stroke-current text-gray-700" role="img" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" aria-labelledby="arrowRightIconTitle" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter" fill="none" color="#2329D6"> <title id="arrowRightIconTitle">Arrow Right</title> <path d="M15 18l6-6-6-6"/> <path d="M3 12h17"/> <path stroke-linecap="round" d="M21 12h-1"/> </svg>
+					</a>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Aktivasi Sertifikat Elektronik
-				  </i>
+					
+					<span class="text-gray-700">Pencabutan Sertifikat Elektronik</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Pencabutan Pengukuhan PKP
-				  </i>
+					
+					<span class="text-gray-700">Aktivasi Sertifikat Elektronik</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Penghapusan NPWP
-				  </i>
+					
+					<span class="text-gray-700">Pencabutan Pengukuhan PKP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Surat Kuasa Khusus
-				  </i>
+					
+					<span class="text-gray-700">Penghapusan NPWP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Aktivasi Akun Pengusaha Kena Pajak
-				  </i>
+					
+					<span class="text-gray-700">Surat Kuasa Khusus</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Aktivasi Efin
-				  </i>
+					
+					<span class="text-gray-700">Aktivasi Akun Pengusaha Kena Pajak</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Cetak Ulang Kartu NPWP SKT SPPKP
-				  </i>
+					
+					<span class="text-gray-700">Aktivasi Efin</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Cetak Ulang Kode Aktivasi
-				  </i>
+					
+					<span class="text-gray-700">Cetak Ulang Kartu NPWP SKT SPPKP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Pengaktifan Kembali Wajib Pajak Non Efektif
-				  </i>
+					
+					<span class="text-gray-700">Cetak Ulang Kode Aktivasi</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Pemindahan Wajib Pajak
-				  </i>
+					
+					<span class="text-gray-700">Pengaktifan Kembali Wajib Pajak Non Efektif</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Penetapan Wajib Pajak Sebagai Wajib Pajak Non Efektif
-				  </i>
+					
+					<span class="text-gray-700">Pemindahan Wajib Pajak</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Permohonan Pelaporan Usaha Dan Pengukuhan PKP
-				  </i>
+					
+					<span class="text-gray-700">Penetapan Wajib Pajak Sebagai Wajib Pajak Non Efektif</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Perubahan Data Wajib Pajak Dan Atau Pengusaha Kena Pajak
-				  </i>
+					
+					<span class="text-gray-700">Permohonan Pelaporan Usaha Dan Pengukuhan PKP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-600" itemprop="headline">
-					Pendaftaran Awal
-				  </i>
+					
+					<span class="text-gray-700">Perubahan Data Wajib Pajak Dan Atau Pengusaha Kena Pajak</span>
+										
+
 				 </li>
 				 
 				</ul>
@@ -232,134 +262,146 @@
 	  </div>
 	</div>
   </div>
-<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 ">
-	<div class="hidden sm:block" aria-hidden="true">
-	  <div class="py-5">
-		<div class="border-t border-gray-200"></div>
-	  </div>
-	</div>
+<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 title-font">
   
-	<div class="mt-10 sm:mt-0">
-	  <div class="md:grid md:grid-cols-5 md:gap-6">
+	<div class="mt-10 sm:mt-0 rounded-lg">
+	  <div class="md:grid md:grid-cols-5 md:gap-6  p-4">
 		<div class="md:col-span-1">
 		  <div class="px-4 sm:px-0">
 			<h3 class="text-2xl font-bold leading-6 text-gray-900">Pelaporan SPT</h3>
-			<p class="mt-1 text-sm text-gray-600">
-			  
+			<p class="mt-1 text-sm text-gray-600">			  
 			</p>
 		  </div>
 		</div>
-		<div data-aos="fade-left" class="md:mt-0 md:col-span-4 font-sans">
+		<div data-aos="fade-left" class="md:mt-0 md:col-span-4">
 			<div class="overflow-hidden">
 			  <div class="px-4 sm:px-0">
 				<ul class="grid grid-cols-1 md:grid-cols-4 gap-7"> 
 				   
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Masa PPh Final Pengungkapan Harta Bersih
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Masa PPh Final Pengungkapan Harta Bersih</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Laporan Pengalihan Dan Realisasi Investasi Harta Tambahan Dan Laporan Penempatan Harta Tambahan Yang Berada Di Dalam Wilayah NKRI
-				  </i>
+					
+					<span class="text-gray-700">Laporan Pengalihan Dan Realisasi Investasi Harta Tambahan Dan Laporan Penempatan Harta Tambahan Yang Berada Di Dalam Wilayah NKRI</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemberitahuan Penggunaan Norma Penghitungan
-				  </i>
+					
+					<span class="text-gray-700">Pemberitahuan Penggunaan Norma Penghitungan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemberitahuan Perpanjangan Jangka Waktu Penyampaian SPT Tahunan
-				  </i>
+					
+					<span class="text-gray-700">Pemberitahuan Perpanjangan Jangka Waktu Penyampaian SPT Tahunan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengungkapan Ketidakbenaran Pengisian SPT
-				  </i>
+					
+					<span class="text-gray-700">Pengungkapan Ketidakbenaran Pengisian SPT</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Pembetulan
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Pembetulan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Tahunan PPh 1770
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Tahunan PPh 1770</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Tahunan PPh 1770 S
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Tahunan PPh 1770 S</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Tahunan PPh Badan 1771
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Tahunan PPh Badan 1771</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Masa PPN 1107 Pemungut
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Masa PPN 1107 Pemungut</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Tahunan PPh 1770 SS
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Tahunan PPh 1770 SS</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Masa PPN 1111 dan Efaktur
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Masa PPN 1111 dan Efaktur</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Masa PPN 1111DM
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Masa PPN 1111DM</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Masa PPh Pasal 15
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Masa PPh Pasal 15</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Masa PPh Pasal 23 26 dan Ebukpot 
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Masa PPh Pasal 23 26 dan Ebukpot </span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Masa PPh Pasal 25
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Masa PPh Pasal 25</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Masa PPh Pasal 21 26
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Masa PPh Pasal 21 26</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pelaporan SPT Masa PPh Pasal 22
-				  </i>
+					
+					<span class="text-gray-700">Pelaporan SPT Masa PPh Pasal 22</span>
+										
+
 				 </li>
 				 
 				</ul>
@@ -370,170 +412,188 @@
 	  </div>
 	</div>
   </div>
-<div data-aos="fade-right"  class="max-w-5xl mx-auto py-2 items-center sm:py-4 ">
-	<div class="hidden sm:block" aria-hidden="true">
-	  <div class="py-5">
-		<div class="border-t border-gray-200"></div>
-	  </div>
-	</div>
+<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 title-font">
   
-	<div class="mt-10 sm:mt-0">
-	  <div class="md:grid md:grid-cols-5 md:gap-6">
+	<div class="mt-10 sm:mt-0 rounded-lg">
+	  <div class="md:grid md:grid-cols-5 md:gap-6  p-4">
 		<div class="md:col-span-1">
 		  <div class="px-4 sm:px-0">
-			<h3 class="text-2xl font-bold leading-6 text-gray-900">Pembayaran</h3>
-			<p class="mt-1 text-sm text-gray-600">
-			  
+			<h3 class="text-2xl font-bold leading-6 text-gray-900">Pembayaran Pajak</h3>
+			<p class="mt-1 text-sm text-gray-600">			  
 			</p>
 		  </div>
 		</div>
-		<div data-aos="fade-left" class="md:mt-0 md:col-span-4 font-sans">
+		<div data-aos="fade-left" class="md:mt-0 md:col-span-4">
 			<div class="overflow-hidden">
 			  <div class="px-4 sm:px-0">
 				<ul class="grid grid-cols-1 md:grid-cols-4 gap-7"> 
 				   
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemberian Imbalan Bunga
-				  </i>
+					
+					<span class="text-gray-700">Pemberian Imbalan Bunga</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengembalian Pajak Tidak Terutang Karena Kesalahan Potong Atau Pungut Pajak Terhadap Orang Pribadi Atau Badan Ya Tidak Diwajibkan Memiliki NPWP
-				  </i>
+					
+					<span class="text-gray-700">Pengembalian Pajak Tidak Terutang Karena Kesalahan Potong Atau Pungut Pajak Terhadap Orang Pribadi Atau Badan Ya Tidak Diwajibkan Memiliki NPWP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengembalian Pajak Tidak Terutang Karena Kesalahan Potong Atau Pungut Pajak Terhadap Subjek Pajak Luar Negeri Yang Memiliki Bentuk Usaha Tetap Di Indonesia
-				  </i>
+					
+					<span class="text-gray-700">Pengembalian Pajak Tidak Terutang Karena Kesalahan Potong Atau Pungut Pajak Terhadap Subjek Pajak Luar Negeri Yang Memiliki Bentuk Usaha Tetap Di Indonesia</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengembalian Pajak Tidak Terutang Karena Kesalahan Potong Atau Pungut Pajak Terhadap Subjek Pajak Luar Negeri Yang Tidak Memiliki but Di Indonesia
-				  </i>
+					
+					<span class="text-gray-700">Pengembalian Pajak Tidak Terutang Karena Kesalahan Potong Atau Pungut Pajak Terhadap Subjek Pajak Luar Negeri Yang Tidak Memiliki but Di Indonesia</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengembalian Kelebihan Pembayaran Pajak Yang Seharusnya Tidak Terutang Atas Kelebihan Pajak Dalam Rangka Impor
-				  </i>
+					
+					<span class="text-gray-700">Pengembalian Kelebihan Pembayaran Pajak Yang Seharusnya Tidak Terutang Atas Kelebihan Pajak Dalam Rangka Impor</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengembalian Pajak Tidak Terutang Karena Kesalahan Potong Atau Pungut PPh PPN Atau PPnBM
-				  </i>
+					
+					<span class="text-gray-700">Pengembalian Pajak Tidak Terutang Karena Kesalahan Potong Atau Pungut PPh PPN Atau PPnBM</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengembalian Atas Keputusan Putusan Keberatan  Banding PK Pasal 36 Pembetulan Pasal 16
-				  </i>
+					
+					<span class="text-gray-700">Pengembalian Atas Keputusan Putusan Keberatan  Banding PK Pasal 36 Pembetulan Pasal 16</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengembalian Kelebihan Pembayaran Pajak Yang Seharusnya Tidak Terutang Atas Pembayaran Pajak Oleh Pihak Pembayar
-				  </i>
+					
+					<span class="text-gray-700">Pengembalian Kelebihan Pembayaran Pajak Yang Seharusnya Tidak Terutang Atas Pembayaran Pajak Oleh Pihak Pembayar</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengembalian PPN Bagi Turis VAT Refund for Tourists
-				  </i>
+					
+					<span class="text-gray-700">Pengembalian PPN Bagi Turis VAT Refund for Tourists</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Restitusi Dengan Pengembalian Pendahuluan Bagi PKP Berisiko Rendah Pasal 9 Ayat 4c UU PPN
-				  </i>
+					
+					<span class="text-gray-700">Restitusi Dengan Pengembalian Pendahuluan Bagi PKP Berisiko Rendah Pasal 9 Ayat 4c UU PPN</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Restitusi Dengan Pengembalian Pendahuluan Bagi WP Dengan Persyaratan Tertentu Pasal 17D KUP
-				  </i>
+					
+					<span class="text-gray-700">Restitusi Dengan Pengembalian Pendahuluan Bagi WP Dengan Persyaratan Tertentu Pasal 17D KUP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengembalian Kelebihan Pembayaran Pajak Bumi Dan Bangunan
-				  </i>
+					
+					<span class="text-gray-700">Pengembalian Kelebihan Pembayaran Pajak Bumi Dan Bangunan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengembalian Kelebihan Pembayaran Pajak Bumi Dan Bangunan Karena Diterbitkannya Keputusan Atau Putusan Yang Mengakibatkan Lebih Bayar PBB
-				  </i>
+					
+					<span class="text-gray-700">Pengembalian Kelebihan Pembayaran Pajak Bumi Dan Bangunan Karena Diterbitkannya Keputusan Atau Putusan Yang Mengakibatkan Lebih Bayar PBB</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengembalian Pendahuluan Bagi WP Dengan Kriteria Tertentu Pasal 17C UU KUP
-				  </i>
+					
+					<span class="text-gray-700">Pengembalian Pendahuluan Bagi WP Dengan Kriteria Tertentu Pasal 17C UU KUP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemindahbukuan Pbk Saldo Deposit Mesin Teraan Meterai Digital
-				  </i>
+					
+					<span class="text-gray-700">Pemindahbukuan Pbk Saldo Deposit Mesin Teraan Meterai Digital</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengalihan Saldo Bea Meterai Dari Teknologi Percetakan Ke Sistem Komputerisasi
-				  </i>
+					
+					<span class="text-gray-700">Pengalihan Saldo Bea Meterai Dari Teknologi Percetakan Ke Sistem Komputerisasi</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemindahbukuan Pbk
-				  </i>
+					
+					<span class="text-gray-700">Pemindahbukuan Pbk</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengalihan Saldo Bea Meterai Dari Sistem Komputerisasi Ke Teknologi Percetakan
-				  </i>
+					
+					<span class="text-gray-700">Pengalihan Saldo Bea Meterai Dari Sistem Komputerisasi Ke Teknologi Percetakan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Angsuran Atas Selisih Lebih Penilaian Kembali Aktiva Tetap Perusahaan Untuk Tujuan Perpajakan
-				  </i>
+					
+					<span class="text-gray-700">Angsuran Atas Selisih Lebih Penilaian Kembali Aktiva Tetap Perusahaan Untuk Tujuan Perpajakan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Angsuran PPh Pasal 25 WP Bank Sewa Guna Usaha Dengan Hak OpsiSKB  BUMN Dan Badan Usaha Milik Daerah
-				  </i>
+					
+					<span class="text-gray-700">Angsuran PPh Pasal 25 WP Bank Sewa Guna Usaha Dengan Hak OpsiSKB  BUMN Dan Badan Usaha Milik Daerah</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengurangan Angsuran PPh Pasal 25
-				  </i>
+					
+					<span class="text-gray-700">Pengurangan Angsuran PPh Pasal 25</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengangsuran Pembayaran PPh Pasal 29
-				  </i>
+					
+					<span class="text-gray-700">Pengangsuran Pembayaran PPh Pasal 29</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penundaan Pembayaran PPh Pasal 29
-				  </i>
+					
+					<span class="text-gray-700">Penundaan Pembayaran PPh Pasal 29</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pembayaran Dan Penyetoran Pajak
-				  </i>
+					
+					<span class="text-gray-700">Pembayaran Dan Penyetoran Pajak</span>
+										
+
 				 </li>
 				 
 				</ul>
@@ -544,86 +604,90 @@
 	  </div>
 	</div>
   </div>
-<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 ">
-	<div class="hidden sm:block" aria-hidden="true">
-	  <div class="py-5">
-		<div class="border-t border-gray-200"></div>
-	  </div>
-	</div>
+<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 title-font">
   
-	<div data-aos="fade-left" class="mt-10 sm:mt-0">
-	  <div class="md:grid md:grid-cols-5 md:gap-6">
+	<div class="mt-10 sm:mt-0 rounded-lg">
+	  <div class="md:grid md:grid-cols-5 md:gap-6  p-4">
 		<div class="md:col-span-1">
 		  <div class="px-4 sm:px-0">
 			<h3 class="text-2xl font-bold leading-6 text-gray-900">Pembukuan</h3>
-			<p class="mt-1 text-sm text-gray-600">
-			  
+			<p class="mt-1 text-sm text-gray-600">			  
 			</p>
 		  </div>
 		</div>
-		<div class="md:mt-0 md:col-span-4 font-sans">
+		<div data-aos="fade-left" class="md:mt-0 md:col-span-4">
 			<div class="overflow-hidden">
 			  <div class="px-4 sm:px-0">
 				<ul class="grid grid-cols-1 md:grid-cols-4 gap-7"> 
 				   
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penggunaan Nilai Buku Atas Pengalihan Dan Perolehan Harta Dalam Rangka Penggabungan Peleburan Pemekaran Atau Pengambilalihan Usaha
-				  </i>
+					
+					<span class="text-gray-700">Penggunaan Nilai Buku Atas Pengalihan Dan Perolehan Harta Dalam Rangka Penggabungan Peleburan Pemekaran Atau Pengambilalihan Usaha</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemberitahuan Pembatalan Izin Menyelenggarakan Pembukuan Dengan Menggunakan Bahasa Inggris Dan Satuan Mata Uang Dollar Amerika Serikat
-				  </i>
+					
+					<span class="text-gray-700">Pemberitahuan Pembatalan Izin Menyelenggarakan Pembukuan Dengan Menggunakan Bahasa Inggris Dan Satuan Mata Uang Dollar Amerika Serikat</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pembatalan Izin Menyelenggarakan Pembukuan Dengan Menggunakan Bahasa Inggris Dan Satuan Mata Uang Dollar Amerika Serikat
-				  </i>
+					
+					<span class="text-gray-700">Pembatalan Izin Menyelenggarakan Pembukuan Dengan Menggunakan Bahasa Inggris Dan Satuan Mata Uang Dollar Amerika Serikat</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pencabutan Izin Menyelenggarakan Pembukuan Dengan Menggunakan Bahasa Inggris Dan Satuan Mata Uang Dollar Amerika Serikat
-				  </i>
+					
+					<span class="text-gray-700">Pencabutan Izin Menyelenggarakan Pembukuan Dengan Menggunakan Bahasa Inggris Dan Satuan Mata Uang Dollar Amerika Serikat</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penerbitan Kembali Izin Menyelenggarakan Pembukuan Dengan Menggunakan Bahasa Inggris Dan Satuan Mata Uang Dollar Amerika Serikat
-				  </i>
+					
+					<span class="text-gray-700">Penerbitan Kembali Izin Menyelenggarakan Pembukuan Dengan Menggunakan Bahasa Inggris Dan Satuan Mata Uang Dollar Amerika Serikat</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permintaan Perubahan Tahun Buku Pertama
-				  </i>
+					
+					<span class="text-gray-700">Permintaan Perubahan Tahun Buku Pertama</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permohonan Perubahan Metode Pembukuan
-				  </i>
+					
+					<span class="text-gray-700">Permohonan Perubahan Metode Pembukuan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Izin Menyelenggarakan Pembukuan Dalam Bahasa Inggris Dan Mata Uang Dollar Amerika Serikat
-				  </i>
+					
+					<span class="text-gray-700">Izin Menyelenggarakan Pembukuan Dalam Bahasa Inggris Dan Mata Uang Dollar Amerika Serikat</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Izin Menyelenggarakan Pembukuan Dengan Menggunakan Bahasa Indonesia Dan Satuan Mata Uang Rupiah
-				  </i>
+					
+					<span class="text-gray-700">Izin Menyelenggarakan Pembukuan Dengan Menggunakan Bahasa Indonesia Dan Satuan Mata Uang Rupiah</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemberitahuan Menyelenggarakan Pembukuan Dalam Bahasa Inggris Dan Mata Uang Dollar Amerika Serikat
-				  </i>
+					
+					<span class="text-gray-700">Pemberitahuan Menyelenggarakan Pembukuan Dalam Bahasa Inggris Dan Mata Uang Dollar Amerika Serikat</span>
+										
+
 				 </li>
 				 
 				</ul>
@@ -634,44 +698,41 @@
 	  </div>
 	</div>
   </div>
-<div data-aos="fade-right"  class="max-w-5xl mx-auto py-2 items-center sm:py-4 ">
-	<div class="hidden sm:block" aria-hidden="true">
-	  <div class="py-5">
-		<div class="border-t border-gray-200"></div>
-	  </div>
-	</div>
+<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 title-font">
   
-	<div class="mt-10 sm:mt-0">
-	  <div class="md:grid md:grid-cols-5 md:gap-6">
+	<div class="mt-10 sm:mt-0 rounded-lg">
+	  <div class="md:grid md:grid-cols-5 md:gap-6  p-4">
 		<div class="md:col-span-1">
 		  <div class="px-4 sm:px-0">
 			<h3 class="text-2xl font-bold leading-6 text-gray-900">Pemeriksaan</h3>
-			<p class="mt-1 text-sm text-gray-600">
-			  
+			<p class="mt-1 text-sm text-gray-600">			  
 			</p>
 		  </div>
 		</div>
-		<div data-aos="fade-left" class="md:mt-0 md:col-span-4 font-sans">
+		<div data-aos="fade-left" class="md:mt-0 md:col-span-4">
 			<div class="overflow-hidden">
 			  <div class="px-4 sm:px-0">
 				<ul class="grid grid-cols-1 md:grid-cols-4 gap-7"> 
 				   
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengungkapan Ketidakbenaran Perbuatan
-				  </i>
+					
+					<span class="text-gray-700">Pengungkapan Ketidakbenaran Perbuatan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permintaan Penghentian Penyidikan Tindak Pidana Di Bidang Perpajakan Untuk Kepentingan Penerimaan Negara
-				  </i>
+					
+					<span class="text-gray-700">Permintaan Penghentian Penyidikan Tindak Pidana Di Bidang Perpajakan Untuk Kepentingan Penerimaan Negara</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permohonan Pembahasan Hasil Pemeriksaan Oleh Tim Quality Assurance Pemeriksaan
-				  </i>
+					
+					<span class="text-gray-700">Permohonan Pembahasan Hasil Pemeriksaan Oleh Tim Quality Assurance Pemeriksaan</span>
+										
+
 				 </li>
 				 
 				</ul>
@@ -682,56 +743,55 @@
 	  </div>
 	</div>
   </div>
-<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 ">
-	<div class="hidden sm:block" aria-hidden="true">
-	  <div class="py-5">
-		<div class="border-t border-gray-200"></div>
-	  </div>
-	</div>
+<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 title-font">
   
-	<div class="mt-10 sm:mt-0">
-	  <div class="md:grid md:grid-cols-5 md:gap-6">
+	<div class="mt-10 sm:mt-0 rounded-lg">
+	  <div class="md:grid md:grid-cols-5 md:gap-6  p-4">
 		<div class="md:col-span-1">
 		  <div class="px-4 sm:px-0">
 			<h3 class="text-2xl font-bold leading-6 text-gray-900">Penagihan Pajak</h3>
-			<p class="mt-1 text-sm text-gray-600">
-			  
+			<p class="mt-1 text-sm text-gray-600">			  
 			</p>
 		  </div>
 		</div>
-		<div data-aos="fade-left" class="md:mt-0 md:col-span-4 font-sans">
+		<div data-aos="fade-left" class="md:mt-0 md:col-span-4">
 			<div class="overflow-hidden">
 			  <div class="px-4 sm:px-0">
 				<ul class="grid grid-cols-1 md:grid-cols-4 gap-7"> 
 				   
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemberian Rehabilitasi Nama Baik Penanggung Pajak Yang Disandera
-				  </i>
+					
+					<span class="text-gray-700">Pemberian Rehabilitasi Nama Baik Penanggung Pajak Yang Disandera</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pembatalan Pengumuman Lelang
-				  </i>
+					
+					<span class="text-gray-700">Pembatalan Pengumuman Lelang</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penundaan Pembayaran Pajak
-				  </i>
+					
+					<span class="text-gray-700">Penundaan Pembayaran Pajak</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Perpanjangan Jangka Waktu Pelunasan Pajak
-				  </i>
+					
+					<span class="text-gray-700">Perpanjangan Jangka Waktu Pelunasan Pajak</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengangsuran Pembayaran Pajak
-				  </i>
+					
+					<span class="text-gray-700">Pengangsuran Pembayaran Pajak</span>
+										
+
 				 </li>
 				 
 				</ul>
@@ -742,110 +802,118 @@
 	  </div>
 	</div>
   </div>
-<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 ">
-	<div class="hidden sm:block" aria-hidden="true">
-	  <div class="py-5">
-		<div class="border-t border-gray-200"></div>
-	  </div>
-	</div>
+<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 title-font">
   
-	<div class="mt-10 sm:mt-0">
-	  <div class="md:grid md:grid-cols-5 md:gap-6">
+	<div class="mt-10 sm:mt-0 rounded-lg">
+	  <div class="md:grid md:grid-cols-5 md:gap-6  p-4">
 		<div class="md:col-span-1">
 		  <div class="px-4 sm:px-0">
 			<h3 class="text-2xl font-bold leading-6 text-gray-900">Sengketa Pajak</h3>
-			<p class="mt-1 text-sm text-gray-600">
-			  
+			<p class="mt-1 text-sm text-gray-600">			  
 			</p>
 		  </div>
 		</div>
-		<div data-aos="fade-left" class="md:mt-0 md:col-span-4 font-sans">
+		<div data-aos="fade-left" class="md:mt-0 md:col-span-4">
 			<div class="overflow-hidden">
 			  <div class="px-4 sm:px-0">
 				<ul class="grid grid-cols-1 md:grid-cols-4 gap-7"> 
 				   
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pembatalan Surat Pemberitahuan Pajak Terutang Surat Ketetapan Pajak PBB Atau Surat Tagihan Pajak PBB Yang Tidak Benar
-				  </i>
+					
+					<span class="text-gray-700">Pembatalan Surat Pemberitahuan Pajak Terutang Surat Ketetapan Pajak PBB Atau Surat Tagihan Pajak PBB Yang Tidak Benar</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengurangan Pajak Bumi Dan Bangunan
-				  </i>
+					
+					<span class="text-gray-700">Pengurangan Pajak Bumi Dan Bangunan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pencabutan Permohonan Pasal 36 UU KUP
-				  </i>
+					
+					<span class="text-gray-700">Pencabutan Permohonan Pasal 36 UU KUP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengurangan Denda Administrasi PBB Pasal 20 UU PBB
-				  </i>
+					
+					<span class="text-gray-700">Pengurangan Denda Administrasi PBB Pasal 20 UU PBB</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengurangan Surat Pemberitahuan Pajak Terutang Atau Surat Ketetapan Pajak PBB Yang Tidak Benar
-				  </i>
+					
+					<span class="text-gray-700">Pengurangan Surat Pemberitahuan Pajak Terutang Atau Surat Ketetapan Pajak PBB Yang Tidak Benar</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pembatalan Surat Ketetapan Pajak Dari Hasil Pemeriksaan Pasal 36 Ayat 1d UU KUP
-				  </i>
+					
+					<span class="text-gray-700">Pembatalan Surat Ketetapan Pajak Dari Hasil Pemeriksaan Pasal 36 Ayat 1d UU KUP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengurangan Atau Pembatalan Surat Ketetapan Pajak Yang Tidak Benar Pasal 36 Ayat 1b UU KUP
-				  </i>
+					
+					<span class="text-gray-700">Pengurangan Atau Pembatalan Surat Ketetapan Pajak Yang Tidak Benar Pasal 36 Ayat 1b UU KUP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengurangan Atau Pembatalan Surat Tagihan Pajak Yang Tidak Benar Pasal 36 Ayat 1c UU KUP
-				  </i>
+					
+					<span class="text-gray-700">Pengurangan Atau Pembatalan Surat Tagihan Pajak Yang Tidak Benar Pasal 36 Ayat 1c UU KUP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengurangan Atau Penghapusan Sanksi Administrasi Pasal 36 Ayat 1a UU KUP
-				  </i>
+					
+					<span class="text-gray-700">Pengurangan Atau Penghapusan Sanksi Administrasi Pasal 36 Ayat 1a UU KUP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Keberatan
-				  </i>
+					
+					<span class="text-gray-700">Keberatan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pembetulan Pasal 16 UU KUP
-				  </i>
+					
+					<span class="text-gray-700">Pembetulan Pasal 16 UU KUP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pencabutan Keberatan
-				  </i>
+					
+					<span class="text-gray-700">Pencabutan Keberatan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permintaan Keterangan Wajib Pajak Dalam Rangka Banding
-				  </i>
+					
+					<span class="text-gray-700">Permintaan Keterangan Wajib Pajak Dalam Rangka Banding</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permintaan Keterangan Wajib Pajak Dalam Rangka Pengajuan Keberatan
-				  </i>
+					
+					<span class="text-gray-700">Permintaan Keterangan Wajib Pajak Dalam Rangka Pengajuan Keberatan</span>
+										
+
 				 </li>
 				 
 				</ul>
@@ -856,428 +924,489 @@
 	  </div>
 	</div>
   </div>
-<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 ">
-	<div class="hidden sm:block" aria-hidden="true">
-	  <div class="py-5">
-		<div class="border-t border-gray-200"></div>
-	  </div>
-	</div>
+<div class="max-w-5xl mx-auto py-2 items-center sm:py-4 title-font">
   
-	<div class="mt-10 sm:mt-0">
-	  <div class="md:grid md:grid-cols-5 md:gap-6">
+	<div class="mt-10 sm:mt-0 rounded-lg">
+	  <div class="md:grid md:grid-cols-5 md:gap-6  p-4">
 		<div class="md:col-span-1">
 		  <div class="px-4 sm:px-0">
 			<h3 class="text-2xl font-bold leading-6 text-gray-900">Layanan Administrasi</h3>
-			<p class="mt-1 text-sm text-gray-600">
-			  
+			<p class="mt-1 text-sm text-gray-600">			  
 			</p>
 		  </div>
 		</div>
-		<div data-aos="fade-left" class="md:mt-0 md:col-span-4 font-sans">
+		<div data-aos="fade-left" class="md:mt-0 md:col-span-4">
 			<div class="overflow-hidden">
 			  <div class="px-4 sm:px-0">
 				<ul class="grid grid-cols-1 md:grid-cols-4 gap-7"> 
 				   
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Klarifikasi Atas Penerbitan Keputusan DJPSKB  Tentang Penetapan Status Suspend Terhadap WP Yang Terindikasi Menerbitkan Faktur Pajak Tidak Sah
-				  </i>
+					
+					<span class="text-gray-700">Klarifikasi Atas Penerbitan Keputusan DJPSKB  Tentang Penetapan Status Suspend Terhadap WP Yang Terindikasi Menerbitkan Faktur Pajak Tidak Sah</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemberian Surat Keterangan Memenuhi Kriteria Sebagai WP Berdasarkan Peraturan Pemerintah Nomor 23 Tahun 2018
-				  </i>
+					
+					<span class="text-gray-700">Pemberian Surat Keterangan Memenuhi Kriteria Sebagai WP Berdasarkan Peraturan Pemerintah Nomor 23 Tahun 2018</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permohonan Penilaian Harta Untuk Tujuan Penyampaian SPT Masa PPh Final Pengungkapan Harta Bersih
-				  </i>
+					
+					<span class="text-gray-700">Permohonan Penilaian Harta Untuk Tujuan Penyampaian SPT Masa PPh Final Pengungkapan Harta Bersih</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemberian Surat Keterangan Pemanfaatan JKP Dari Luar Daerah Pabean Di Dalam Daerah Pabean SKJLN
-				  </i>
+					
+					<span class="text-gray-700">Pemberian Surat Keterangan Pemanfaatan JKP Dari Luar Daerah Pabean Di Dalam Daerah Pabean SKJLN</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Konfirmasi Status WP KSWP
-				  </i>
+					
+					<span class="text-gray-700">Konfirmasi Status WP KSWP</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penetapan Angsuran PPh Pasal 25 WP BankSKB  Sewa Guna Usaha Dengan Hak OpsiSKB   BUMN Dan Badan Usaha Milik Daerah
-				  </i>
+					
+					<span class="text-gray-700">Penetapan Angsuran PPh Pasal 25 WP BankSKB  Sewa Guna Usaha Dengan Hak OpsiSKB   BUMN Dan Badan Usaha Milik Daerah</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pencabutan Surat Izin Konsultan Pajak
-				  </i>
+					
+					<span class="text-gray-700">Pencabutan Surat Izin Konsultan Pajak</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penerbitan Kembali Atau Perpanjangan Kartu Tanda Pengenal Konsultan Pajak
-				  </i>
+					
+					<span class="text-gray-700">Penerbitan Kembali Atau Perpanjangan Kartu Tanda Pengenal Konsultan Pajak</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penerbitan Atau Peningkatan Surat Izin Konsultan Pajak
-				  </i>
+					
+					<span class="text-gray-700">Penerbitan Atau Peningkatan Surat Izin Konsultan Pajak</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemberitahuan Informasi Layanan Publik
-				  </i>
+					
+					<span class="text-gray-700">Pemberitahuan Informasi Layanan Publik</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemberitahuan Pelaporan SPT Masa Bagi WP Dengan Kriteria Tertentu Ya Dapat Melaporkan Beberapa Masa Pajak Dalam Satu SPT Masa
-				  </i>
+					
+					<span class="text-gray-700">Pemberitahuan Pelaporan SPT Masa Bagi WP Dengan Kriteria Tertentu Ya Dapat Melaporkan Beberapa Masa Pajak Dalam Satu SPT Masa</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Endorsement Atas Pemasukan BKP Berwujud Dari Tempat Lain Dalam Daerah Pabean TLDDP Ke Kawasan Bebas Sabang
-				  </i>
+					
+					<span class="text-gray-700">Endorsement Atas Pemasukan BKP Berwujud Dari Tempat Lain Dalam Daerah Pabean TLDDP Ke Kawasan Bebas Sabang</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Endorsement Atas Pemasukan BKP Berwujud Dari Tempat Lain Dalam Daerah Pabean TLDDP Ke Kawasan Bebas
-				  </i>
+					
+					<span class="text-gray-700">Endorsement Atas Pemasukan BKP Berwujud Dari Tempat Lain Dalam Daerah Pabean TLDDP Ke Kawasan Bebas</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Cetak Ulang SPPT PBB
-				  </i>
+					
+					<span class="text-gray-700">Cetak Ulang SPPT PBB</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Legalisasi Surat Keterangan Domisili
-				  </i>
+					
+					<span class="text-gray-700">Legalisasi Surat Keterangan Domisili</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Legalisasi SKB PPh Pasal 21 22 23 Terkait Peraturan Pemerintah Nomor 46 Tahun 2013
-				  </i>
+					
+					<span class="text-gray-700">Legalisasi SKB PPh Pasal 21 22 23 Terkait Peraturan Pemerintah Nomor 46 Tahun 2013</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Legalisasi SKB PPh 21 22 23
-				  </i>
+					
+					<span class="text-gray-700">Legalisasi SKB PPh 21 22 23</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Kesepakatan Harga Transfer Advance Pricing Agreement
-				  </i>
+					
+					<span class="text-gray-700">Kesepakatan Harga Transfer Advance Pricing Agreement</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permintaan Pelaksanaan Prosedur Persetujuan Bersama Mutual Agreement Procedure
-				  </i>
+					
+					<span class="text-gray-700">Permintaan Pelaksanaan Prosedur Persetujuan Bersama Mutual Agreement Procedure</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penggunaan Stempel Tanda Tangan Pada Bukpot PPh Atas Pembayaran Dividen Kepada Para Pemegang Saham
-				  </i>
+					
+					<span class="text-gray-700">Penggunaan Stempel Tanda Tangan Pada Bukpot PPh Atas Pembayaran Dividen Kepada Para Pemegang Saham</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penggunaan Stempel Tanda Tangan Pada Bukpot PPh Pasal 4 Ayat 2 Atas Pembayaran Bunga Kepada Nasabah Pemegang SUN ORI
-				  </i>
+					
+					<span class="text-gray-700">Penggunaan Stempel Tanda Tangan Pada Bukpot PPh Pasal 4 Ayat 2 Atas Pembayaran Bunga Kepada Nasabah Pemegang SUN ORI</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penggunaan Stempel Tanda Tangan Pada Bukpot PPh Bunga DepositoSKB  TabunganSKB  Jasa GiroSKB  Dan Diskonto Sertifikat Bank Indonesia
-				  </i>
+					
+					<span class="text-gray-700">Penggunaan Stempel Tanda Tangan Pada Bukpot PPh Bunga DepositoSKB  TabunganSKB  Jasa GiroSKB  Dan Diskonto Sertifikat Bank Indonesia</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penggunaan Stempel Tanda Tangan Pada Bukpot PPh Pasal 21 Dan Pasal 26
-				  </i>
+					
+					<span class="text-gray-700">Penggunaan Stempel Tanda Tangan Pada Bukpot PPh Pasal 21 Dan Pasal 26</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Surat Keterangan Penelitian Formal Bukti Pemenuhan Kewajiban Penyetoran PPh Atas PHTB Atau Perubahan Perjanjian Pengikatan Jual Beli Atas Tanah Dan Atau Bangunan
-				  </i>
+					
+					<span class="text-gray-700">Surat Keterangan Penelitian Formal Bukti Pemenuhan Kewajiban Penyetoran PPh Atas PHTB Atau Perubahan Perjanjian Pengikatan Jual Beli Atas Tanah Dan Atau Bangunan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Surat Dispensasi atas Pengalihan BKP sebagaimana atau pengalihmanfaatan JKP ya dilakukan sesama Perwakilan Negara Asing, SKB  Badan Internasional, SKB  Pejabat Perwakilan Negara Asing, SKB  dan/atau Pejabat Badan Internasional, SKB  PPN atau PPN dan PPnBM
-				  </i>
+					
+					<span class="text-gray-700">Surat Dispensasi atas Pengalihan BKP sebagaimana atau pengalihmanfaatan JKP ya dilakukan sesama Perwakilan Negara Asing, SKB  Badan Internasional, SKB  Pejabat Perwakilan Negara Asing, SKB  dan/atau Pejabat Badan Internasional, SKB  PPN atau PPN dan PPnBM</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permintaan Data Faktur Pajak Berbentuk Elektronik E Faktur
-				  </i>
+					
+					<span class="text-gray-700">Permintaan Data Faktur Pajak Berbentuk Elektronik E Faktur</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Nomor Seri Faktur Pajak
-				  </i>
+					
+					<span class="text-gray-700">Nomor Seri Faktur Pajak</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Surat Keterangan Domisili SPDN
-				  </i>
+					
+					<span class="text-gray-700">Surat Keterangan Domisili SPDN</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Rencana Kebutuhan Impor Dan Perolehan Perubahan
-				  </i>
+					
+					<span class="text-gray-700">Rencana Kebutuhan Impor Dan Perolehan Perubahan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pembatalan Surat Keterangan Tidak Dipungut
-				  </i>
+					
+					<span class="text-gray-700">Pembatalan Surat Keterangan Tidak Dipungut</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Surat Keterangan Tidak Dipungut
-				  </i>
+					
+					<span class="text-gray-700">Surat Keterangan Tidak Dipungut</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					SKB PPnBM Atas Impor Atau Penyerahan Kendaraan Protokoler Kenegaraan SKB  Kendaraan Dinas Atau Kendaraan Patroli TNI Polri
-				  </i>
+					
+					<span class="text-gray-700">SKB PPnBM Atas Impor Atau Penyerahan Kendaraan Protokoler Kenegaraan SKB  Kendaraan Dinas Atau Kendaraan Patroli TNI Polri</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					SKB PPnBM Impor Atau Penyerahan Kendaraan Ambulan SKB Sejenis
-				  </i>
+					
+					<span class="text-gray-700">SKB PPnBM Impor Atau Penyerahan Kendaraan Ambulan SKB Sejenis</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					SKB PPN Atau PPN Dan Pajak Penjualan Atas Barang Mewah Kepada Perwakilan Negara Asing Dan Badan Internasional Serta Pejabatnya
-				  </i>
+					
+					<span class="text-gray-700">SKB PPN Atau PPN Dan Pajak Penjualan Atas Barang Mewah Kepada Perwakilan Negara Asing Dan Badan Internasional Serta Pejabatnya</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pembatalan SKB PPN BKP Strategis
-				  </i>
+					
+					<span class="text-gray-700">Pembatalan SKB PPN BKP Strategis</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					SKB PPN Atas Impor Dan Atau Penyerahan BKP Tertentu Ya Bersifat Strategis
-				  </i>
+					
+					<span class="text-gray-700">SKB PPN Atas Impor Dan Atau Penyerahan BKP Tertentu Ya Bersifat Strategis</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					SKB PPN Atas Impor Dan Atau Penyerahan BKP Tertentu Dan Atau Penyerahan JKP Tertentu
-				  </i>
+					
+					<span class="text-gray-700">SKB PPN Atas Impor Dan Atau Penyerahan BKP Tertentu Dan Atau Penyerahan JKP Tertentu</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					SKB Pemotongan Dan Atau Pemungutan PPh Bagi WP Ya Dikenai PPh Berdasarkan Peraturan Pemerintah Nomor 46 Tahun 2013
-				  </i>
+					
+					<span class="text-gray-700">SKB Pemotongan Dan Atau Pemungutan PPh Bagi WP Ya Dikenai PPh Berdasarkan Peraturan Pemerintah Nomor 46 Tahun 2013</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					SKB PPh Atas Penghasilan Dari PHTB Bagi WP Ya Usaha Pokoknya Melakukan Pengalihan Hak Atas Tanah Dan Atau Bangunan
-				  </i>
+					
+					<span class="text-gray-700">SKB PPh Atas Penghasilan Dari PHTB Bagi WP Ya Usaha Pokoknya Melakukan Pengalihan Hak Atas Tanah Dan Atau Bangunan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permohonan SKB Pemotongan PPhatas Bunga Deposito Dan Tabungan Serta Diskonto Sertifikat Bank Indonesia Ya Diterima Atau Diperoleh Dana Pensiun
-				  </i>
+					
+					<span class="text-gray-700">Permohonan SKB Pemotongan PPhatas Bunga Deposito Dan Tabungan Serta Diskonto Sertifikat Bank Indonesia Ya Diterima Atau Diperoleh Dana Pensiun</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					SKB PPh Atas Penghasilan Dari Pengalihan Hak Atas Tanah Dan Atau Bangunan
-				  </i>
+					
+					<span class="text-gray-700">SKB PPh Atas Penghasilan Dari Pengalihan Hak Atas Tanah Dan Atau Bangunan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					SKB PPh Pasal 22 Atas Impor Emas Batangan Dari WP Ya Bergerak Dalam Bidang Industri Perhiasan Emas Untuk Tujuan Ekspor
-				  </i>
+					
+					<span class="text-gray-700">SKB PPh Pasal 22 Atas Impor Emas Batangan Dari WP Ya Bergerak Dalam Bidang Industri Perhiasan Emas Untuk Tujuan Ekspor</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permohonan SKB PPh Pasal 21 Pasal 22 Selain ImporSKB  Pasal 22 Impor PPh Pasal 23
-				  </i>
+					
+					<span class="text-gray-700">Permohonan SKB PPh Pasal 21 Pasal 22 Selain ImporSKB  Pasal 22 Impor PPh Pasal 23</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Surat Keterangan Fiskal
-				  </i>
+					
+					<span class="text-gray-700">Surat Keterangan Fiskal</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Surat Keterangan Pemenuhan Kewajiban Perpajakan Bakal Calon Kepala Daerah
-				  </i>
+					
+					<span class="text-gray-700">Surat Keterangan Pemenuhan Kewajiban Perpajakan Bakal Calon Kepala Daerah</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemberian Fasilitas Untuk Kawasan Pengembangan Ekonomi Terpadu KAPET
-				  </i>
+					
+					<span class="text-gray-700">Pemberian Fasilitas Untuk Kawasan Pengembangan Ekonomi Terpadu KAPET</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penetapan Penambahan Jangka Waktu Kompensasi Kerugian
-				  </i>
+					
+					<span class="text-gray-700">Penetapan Penambahan Jangka Waktu Kompensasi Kerugian</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Permohonan Pemberian Fasilitas Untuk Bidang Usaha Daerah Tertentu PP 18 2015
-				  </i>
+					
+					<span class="text-gray-700">Permohonan Pemberian Fasilitas Untuk Bidang Usaha Daerah Tertentu PP 18 2015</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penetapan Atas Saat Mulainya Penyusutan Harta Berwujud Yang Dapat Dilakukan Pada Bulan Digunakan Atau Bulan Mulai Menghasilkan
-				  </i>
+					
+					<span class="text-gray-700">Penetapan Atas Saat Mulainya Penyusutan Harta Berwujud Yang Dapat Dilakukan Pada Bulan Digunakan Atau Bulan Mulai Menghasilkan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penetapan Masa Manfaat Atas Harta Berwujud Bukan Bangunan Dan Harta Tidak Berwujud
-				  </i>
+					
+					<span class="text-gray-700">Penetapan Masa Manfaat Atas Harta Berwujud Bukan Bangunan Dan Harta Tidak Berwujud</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penilaian Kembali Aktiva Tetap Perusahaan Untuk Tujuan Perpajaka
-				  </i>
+					
+					<span class="text-gray-700">Penilaian Kembali Aktiva Tetap Perusahaan Untuk Tujuan Perpajaka</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pencabutan Pemusatan Tempat PPN Terutang
-				  </i>
+					
+					<span class="text-gray-700">Pencabutan Pemusatan Tempat PPN Terutang</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Perpanjangan Pemusatan Tempat PPN Terutang
-				  </i>
+					
+					<span class="text-gray-700">Perpanjangan Pemusatan Tempat PPN Terutang</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Perubahan Tempat Pemusatan PPN Terutang
-				  </i>
+					
+					<span class="text-gray-700">Perubahan Tempat Pemusatan PPN Terutang</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penambahan Dan Atau Pengurangan Pemusatan Tempat PPN Terutang
-				  </i>
+					
+					<span class="text-gray-700">Penambahan Dan Atau Pengurangan Pemusatan Tempat PPN Terutang</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pemusatan Tempat PPN Terutang
-				  </i>
+					
+					<span class="text-gray-700">Pemusatan Tempat PPN Terutang</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Penetapan Saat Dimulainya Saat Berproduksi Secara Komersial
-				  </i>
+					
+					<span class="text-gray-700">Penetapan Saat Dimulainya Saat Berproduksi Secara Komersial</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Fasilitas Pengurangan PPhBadan Untuk Industri Pionir
-				  </i>
+					
+					<span class="text-gray-700">Fasilitas Pengurangan PPhBadan Untuk Industri Pionir</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					PKP Toko Retail Ya Berpartisipasi Dalam Skema Pengembalian PPN Kepada Orang Pribadi Pemegang Paspor Luar Negeri
-				  </i>
+					
+					<span class="text-gray-700">PKP Toko Retail Ya Berpartisipasi Dalam Skema Pengembalian PPN Kepada Orang Pribadi Pemegang Paspor Luar Negeri</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pengusaha Kena Pajak Berisiko Rendah
-				  </i>
+					
+					<span class="text-gray-700">Pengusaha Kena Pajak Berisiko Rendah</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Izin Sebagai Pelaksana Pembubuhan Tanda Bea Meterai Lunas Dengan Teknologi Percetakan
-				  </i>
+					
+					<span class="text-gray-700">Izin Sebagai Pelaksana Pembubuhan Tanda Bea Meterai Lunas Dengan Teknologi Percetakan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					WP Dengan Kriteria Tertentu
-				  </i>
+					
+					<span class="text-gray-700">WP Dengan Kriteria Tertentu</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Izin Pembubuhan Tanda Bea Meterai Lunas Dengan Teknologi Percetakan
-				  </i>
+					
+					<span class="text-gray-700">Izin Pembubuhan Tanda Bea Meterai Lunas Dengan Teknologi Percetakan</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Izin Pembubuhan Tanda Bea Meterai Lunas Dengan Sistem Komputerisasi
-				  </i>
+					
+					<span class="text-gray-700">Izin Pembubuhan Tanda Bea Meterai Lunas Dengan Sistem Komputerisasi</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pencabutan Izin Pembubuhan Tanda Bea Meterai Lunas  Dengan Mesin Teraan Meterai Digital Berdasarkan Permohonan Wajib Pajak
-				  </i>
+					
+					<span class="text-gray-700">Pencabutan Izin Pembubuhan Tanda Bea Meterai Lunas  Dengan Mesin Teraan Meterai Digital Berdasarkan Permohonan Wajib Pajak</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Izin Pembubuhan Tanda Bea Meterai Lunas Dengan Mesin Teraan Meterai Digital
-				  </i>
+					
+					<span class="text-gray-700">Izin Pembubuhan Tanda Bea Meterai Lunas Dengan Mesin Teraan Meterai Digital</span>
+										
+
 				 </li>
 				  
 				 <li class="sm:col-span-2" itemscope itemtype="http://schema.org/CreativeWork">
-				  <i class="block text-gray-700" itemprop="headline">
-					Pembetulan Izin Pembubuhan Tanda Bea Meterai Lunas  Dengan Mesin Teraan Meterai Digital Berdasarkan Permohonan Wajib Pajak
-				  </i>
+					
+					<span class="text-gray-700">Pembetulan Izin Pembubuhan Tanda Bea Meterai Lunas  Dengan Mesin Teraan Meterai Digital Berdasarkan Permohonan Wajib Pajak</span>
+										
+
 				 </li>
 				 
 				</ul>
@@ -1289,10 +1418,6 @@
 	</div>
   </div>
 </div>
-
-
-
-
 
 
         </div>

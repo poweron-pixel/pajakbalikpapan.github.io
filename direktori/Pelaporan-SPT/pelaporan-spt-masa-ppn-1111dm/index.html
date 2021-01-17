@@ -12,7 +12,7 @@
   
 
     
-    <link rel="stylesheet" href="/css/styles.min.30a346f8b84635ed34d2848fad430fbbd145f1ec68a71c7e3cc781bb258900d7.css">
+    <link rel="stylesheet" href="/css/styles.min.47f42ad27e7f312e475f01e48d725df2a16fb5189d6f2e532593464d3fa64da7.css">
 
 
   <meta charset="utf-8">
@@ -86,24 +86,25 @@
             </h1>
           </a>
           <button class="rounded-xl md:hidden focus:outline-none fill-current text-gray-700" @click="open = !open">
-              <svg viewBox="0 0 20 20" class="w-12 h-12">
-                  <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-                  <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" style="display: none;"></path>
+              <svg class="text-gray-700 stroke-current" role="img" xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 24 24" aria-labelledby="statsIconTitle" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" fill="none" color="#2329D6"> 
+                <title id="statsIconTitle">Stats</title>
+                <path x-show="open" d="M6.34314575 6.34314575L17.6568542 17.6568542M6.34314575 17.6568542L17.6568542 6.34314575"/>  
+                <path x-show="!open" d="M6 7L15 7M6 12L18 12M6 17L12 17"/> 
               </svg>
           </button>
       </div>
       <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden px-5 pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
           
         
-          <a class="inline-flex items-center p-3 font-semibold text-gray-700 transition duration-500 ease-in-out transform rounded-xl md:w-auto font-lg focus:outline-none hover:text-blue-900" href="/direktori/">
+          <a class="inline-flex items-center p-3  text-black transition duration-500 ease-in-out transform rounded-xl md:w-auto focus:outline-none hover:text-blue-900" href="/direktori/">
               Direktori
           </a>
           
-          <a class="inline-flex items-center p-3 font-semibold text-gray-700 transition duration-500 ease-in-out transform rounded-xl md:w-auto font-lg focus:outline-none hover:text-blue-900" href="/pricing/">
+          <a class="inline-flex items-center p-3  text-black transition duration-500 ease-in-out transform rounded-xl md:w-auto focus:outline-none hover:text-blue-900" href="/pricing/">
               Harga
           </a>
           
-          <a class="inline-flex items-center p-3 font-semibold text-gray-700 transition duration-500 ease-in-out transform rounded-xl md:w-auto font-lg focus:outline-none hover:text-blue-900" href="/contact/">
+          <a class="inline-flex items-center p-3  text-black transition duration-500 ease-in-out transform rounded-xl md:w-auto focus:outline-none hover:text-blue-900" href="/contact/">
               Kontak
           </a>
           
@@ -114,7 +115,8 @@
         <div class="max-w-7xl mx-auto">
           
 
-<section class="body-font border-t" itemscope itemtype="http://schema.org/BlogPosting">
+
+<section class=""  itemscope itemtype="http://schema.org/BlogPosting">
   <meta itemprop="name" content="Pelaporan SPT Masa PPN 1111DM">
 <meta itemprop="description" content="">
 <meta itemprop="datePublished" content="2021-01-16T11:36:01+08:00" />
@@ -125,13 +127,27 @@
 
 <meta itemprop="keywords" content="" />
 
-  <div class="container mx-auto flex flex-col px-5 py-8 justify-center items-center">
-    <div class="w-full md:w-2/3 flex flex-col mb-8 items-center text-center">
-      <h1 itemprop="headline" class="text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold tracking-tight pb-8">
-        Pelaporan SPT Masa PPN 1111DM
-      </h1>
-      
-    </div>
+  <div class="container flex items-start px-5 py-24 mx-auto lg:px-20">
+      <div class="flex flex-col w-full p-8 mt-10 lg:w-4/6 md:w-1/2 md:ml-auto md:mt-0 ">
+          <h1 itemprop="headline" class="text-3xl lg:text-5xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-500 mb-10">
+              Pelaporan SPT Masa PPN 1111DM
+          </h1>
+          <div itemprop="articleBody" class="prose"></div>
+      </div>
+      <div class="flex flex-col w-full p-8 lg:w-2/6 md:w-1/2 md:ml-auto lg:mt-10 md:mt-0">
+          <form class="w-full" name="feedback" method="POST"><input type="hidden" name="form-name" value="feedback">
+              <div class="relative mb-4">
+                  <textarea id="message" name="message" class="w-full px-3 py-1 text-base leading-6 text-black transition-colors duration-200 ease-in-out border border-transparent rounded-lg shadow outline-none resize-none bg-gray-700 h-28 focus:border-pink-900 focus:ring-2 focus:ring-pink-600"></textarea>
+              </div>
+              <button type="submit" class="w-full px-8 py-2 font-bold transition-colors duration-500 ease-in-out transform rounded-lg focus:outline-none bg-blue-500 hover:bg-yellow-500 text-blue-900">Send
+                  
+              </button>
+              <div class="mx-auto mt-10 ">
+
+              </div>
+              
+          </form>
+      </div>
   </div>
 </section>
 
