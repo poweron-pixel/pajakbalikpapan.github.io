@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Direktoris on Layanan Pajak</title>
+    <title>Direktori Layanan Perpajakan on Layanan Pajak</title>
     <link>https://pajakbalikpapan.github.io/direktori/</link>
-    <description>Recent content in Direktoris on Layanan Pajak</description>
+    <description>Recent content in Direktori Layanan Perpajakan on Layanan Pajak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Jan 2021 13:12:59 +0800</lastBuildDate><atom:link href="https://pajakbalikpapan.github.io/direktori/index.xml" rel="self" type="application/rss+xml" />
@@ -50,15 +50,6 @@ Layanan ini diberikan kepada:  Wajib Pajak yang telah memenuhi persyaratan subje
       <pubDate>Sat, 16 Jan 2021 13:12:56 +0800</pubDate>
       
       <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/pemberian-surat-keterangan-pemanfaatan-jkp-dari-luar-daerah-pabean-di-dalam-daerah-pabean-skjln/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Konfirmasi Status WP KSWP</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/konfirmasi-status-wp-kswp/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:55 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/konfirmasi-status-wp-kswp/</guid>
       <description></description>
     </item>
     
@@ -113,24 +104,6 @@ Layanan ini diberikan kepada:  Wajib Pajak yang telah memenuhi persyaratan subje
       <pubDate>Sat, 16 Jan 2021 13:12:41 +0800</pubDate>
       
       <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/legalisasi-surat-keterangan-domisili/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Legalisasi SKB PPh Pasal 21 22 23 Terkait Peraturan Pemerintah Nomor 46 Tahun 2013</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/legalisasi-skb-pph-pasal-21-22-23-terkait-peraturan-pemerintah-nomor-46-tahun-2013/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:40 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/legalisasi-skb-pph-pasal-21-22-23-terkait-peraturan-pemerintah-nomor-46-tahun-2013/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Legalisasi SKB PPh 21 22 23</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/legalisasi-skb-pph-21-22-23/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:39 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/legalisasi-skb-pph-21-22-23/</guid>
       <description></description>
     </item>
     
@@ -207,39 +180,14 @@ Layanan ini diberikan kepada:  Wajib Pajak yang telah memenuhi persyaratan subje
     </item>
     
     <item>
-      <title>Permintaan Data Faktur Pajak Berbentuk Elektronik E Faktur</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/permintaan-data-faktur-pajak-berbentuk-elektronik-e-faktur/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:30 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/permintaan-data-faktur-pajak-berbentuk-elektronik-e-faktur/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Nomor Seri Faktur Pajak</title>
       <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/nomor-seri-faktur-pajak/</link>
       <pubDate>Sat, 16 Jan 2021 13:12:29 +0800</pubDate>
       
       <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/nomor-seri-faktur-pajak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Surat Keterangan Domisili SPDN</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-domisili-spdn/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:28 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-domisili-spdn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rencana Kebutuhan Impor Dan Perolehan Perubahan</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/rencana-kebutuhan-impor-dan-perolehan-perubahan/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:27 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/rencana-kebutuhan-impor-dan-perolehan-perubahan/</guid>
-      <description></description>
+      <description>Permintaan Nomor Seri Faktur Pajak Layanan ini diberikan kepada Pengusaha Kena Pajak (PKP) yang mengajukan permintaan Nomor Seri Faktur Pajak.
+layanan ini bagian dari layanan SPT Masa PPN
+Persyaratan dan Dokumen  telah memiliki Kode Aktivasi dan Password; telah melakukan aktivasi Akun Pengusaha Kena Pajak; telah melaporkan SPT Masa PPN untuk 3 (tiga) masa pajak terakhir yang telah jatuh tempo secara berturut-turut pada tanggal permintaan disampaikan ke KPP; surat permintaan Nomor Seri Faktur Pajak.</description>
     </item>
     
     <item>
@@ -248,15 +196,6 @@ Layanan ini diberikan kepada:  Wajib Pajak yang telah memenuhi persyaratan subje
       <pubDate>Sat, 16 Jan 2021 13:12:26 +0800</pubDate>
       
       <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/pembatalan-surat-keterangan-tidak-dipungut/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Surat Keterangan Tidak Dipungut</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-tidak-dipungut/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:25 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-tidak-dipungut/</guid>
       <description></description>
     </item>
     
@@ -369,24 +308,6 @@ Layanan ini diberikan kepada:  Wajib Pajak yang telah memenuhi persyaratan subje
     </item>
     
     <item>
-      <title>Surat Keterangan Fiskal</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-fiskal/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:14 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-fiskal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Surat Keterangan Pemenuhan Kewajiban Perpajakan Bakal Calon Kepala Daerah</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-pemenuhan-kewajiban-perpajakan-bakal-calon-kepala-daerah/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:14 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-pemenuhan-kewajiban-perpajakan-bakal-calon-kepala-daerah/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Pemberian Fasilitas Untuk Kawasan Pengembangan Ekonomi Terpadu KAPET</title>
       <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/pemberian-fasilitas-untuk-kawasan-pengembangan-ekonomi-terpadu-kapet/</link>
       <pubDate>Sat, 16 Jan 2021 13:12:12 +0800</pubDate>
@@ -450,24 +371,6 @@ Layanan ini diberikan kepada:  Wajib Pajak yang telah memenuhi persyaratan subje
     </item>
     
     <item>
-      <title>Perpanjangan Pemusatan Tempat PPN Terutang</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/perpanjangan-pemusatan-tempat-ppn-terutang/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:06 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/perpanjangan-pemusatan-tempat-ppn-terutang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Perubahan Tempat Pemusatan PPN Terutang</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/perubahan-tempat-pemusatan-ppn-terutang/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:05 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/perubahan-tempat-pemusatan-ppn-terutang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Penambahan Dan Atau Pengurangan Pemusatan Tempat PPN Terutang</title>
       <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/penambahan-dan-atau-pengurangan-pemusatan-tempat-ppn-terutang/</link>
       <pubDate>Sat, 16 Jan 2021 13:12:04 +0800</pubDate>
@@ -509,15 +412,6 @@ Layanan ini diberikan kepada:  Wajib Pajak yang telah memenuhi persyaratan subje
       <pubDate>Sat, 16 Jan 2021 13:12:01 +0800</pubDate>
       
       <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/pkp-toko-retail-ya-berpartisipasi-dalam-skema-pengembalian-ppn-kepada-orang-pribadi-pemegang-paspor-luar-negeri/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pengusaha Kena Pajak Berisiko Rendah</title>
-      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/pengusaha-kena-pajak-berisiko-rendah/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:00 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/pengusaha-kena-pajak-berisiko-rendah/</guid>
       <description></description>
     </item>
     
@@ -1046,11 +940,52 @@ Persyaratan dan Dokumen
     </item>
     
     <item>
+      <title>Konfirmasi Status WP KSWP</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/konfirmasi-status-wp-kswp/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:55 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/konfirmasi-status-wp-kswp/</guid>
+      <description>Konfirmasi Status Wajib Pajak Layanan yang diberikan kepada Wajib Pajak dalam rangka pelaksanaan konfirmasi status Wajib Pajak atas layanan publik tertentu pada Instansi Pemerintah.
+Prosedur Wajib Pajak mengajukan permohonan ke KPP/KP2KP yang wilayah kerjanya meliputi tempat kedudukan Instansi Pemerintah, KPP/KP2KP tempat Wajib Pajak terdaftar, atau KPP/KP2KP terdekat dengan lokasi Instansi Pemerintah.
+Persyaratan dan Dokumen  surat permohonan keterangan status Wajib Pajak; nama Wajib Pajak dan NPWP sesuai dengan data dalam sistem informasi Direktorat Jenderal Pajak; telah menyampaikan SPT Tahunan PPh untuk 2 (dua) Tahun Pajak terakhir yang sudah menjadi kewajiban Wajib Pajak sesuai dengan ketentuan perundang-undangan.</description>
+    </item>
+    
+    <item>
+      <title>Permintaan Data Faktur Pajak Berbentuk Elektronik (e-Faktur)</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/permintaan-data-faktur-pajak-berbentuk-elektronik-e-faktur/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:30 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/permintaan-data-faktur-pajak-berbentuk-elektronik-e-faktur/</guid>
+      <description>Permintaan Data Faktur Pajak Berbentuk Elektronik (e-Faktur) Layanan ini diberikan kepada Pengusaha Kena Pajak (PKP) yang mengajukan permintaan data e-Faktur yang rusak atau hilang. Data e-Faktur yang dapat diminta terbatas pada data Faktur Pajak Keluaranyang telah diunggah (upload) ke Direktorat Jenderal Pajak dan telah memperoleh persetujuan Direktorat Jenderal Pajak.
+layanan ini bagian dari layanan SPT Masa PPN
+Prosedur PKP mengajukan permintaan data e-Faktur ke KPP tempat PKP terdaftar.
+Persyaratan dan Dokumen Surat permintaan data e-Faktur.</description>
+    </item>
+    
+    <item>
       <title>Pengurangan Angsuran PPh Pasal 25</title>
       <link>https://pajakbalikpapan.github.io/direktori/pembayaran/pengurangan-angsuran-pph-pasal-25/</link>
       <pubDate>Sat, 16 Jan 2021 13:09:38 +0800</pubDate>
       
       <guid>https://pajakbalikpapan.github.io/direktori/pembayaran/pengurangan-angsuran-pph-pasal-25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surat Keterangan Fiskal</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-fiskal/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:14 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-fiskal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surat Keterangan Pemenuhan Kewajiban Perpajakan Bakal Calon Kepala Daerah</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-pemenuhan-kewajiban-perpajakan-bakal-calon-kepala-daerah/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:14 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-pemenuhan-kewajiban-perpajakan-bakal-calon-kepala-daerah/</guid>
       <description></description>
     </item>
     
@@ -1062,6 +997,42 @@ Persyaratan dan Dokumen
       <guid>https://pajakbalikpapan.github.io/direktori/pembayaran/penundaan-pembayaran-pph-pasal-29/</guid>
       <description>Penundaan Pembayaran PPh Pasal 29 Layanan yang diberikan kepada Wajib Pajak yang mengajukan permohonan penundaan kekurangan pembayaran pajak yang terutang berdasarkan Surat Pemberitahuan Tahunan PPh, dalam hal Wajib Pajak mengalami kesulitan likuiditas atau mengalami keadaan di luar kekuasaannya sehingga Wajib Pajak tidak mampu memenuhi kewajiban pajak pada waktunya.
 Prosedur Wajib Pajak mengajukan permohonan penundaan pembayaran PPh Pasal 29 paling lama 9 (sembilan) hari kerja sebelum jatuh tempo pembayaran kepada Kepala KPP tempat Wajib Pajak terdaftar.</description>
+    </item>
+    
+    <item>
+      <title>Surat Keterangan Tidak Dipungut</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-tidak-dipungut/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:25 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-tidak-dipungut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surat Keterangan Domisili SPDN</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-domisili-spdn/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:28 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/surat-keterangan-domisili-spdn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pengusaha Kena Pajak Berisiko Rendah</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/pengusaha-kena-pajak-berisiko-rendah/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:00 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/pengusaha-kena-pajak-berisiko-rendah/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rencana Kebutuhan Impor Dan Perolehan Perubahan</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/rencana-kebutuhan-impor-dan-perolehan-perubahan/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:27 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/rencana-kebutuhan-impor-dan-perolehan-perubahan/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1125,6 +1096,15 @@ SPT Tahunan PPh Wajib Pajak Orang Pribadi 1770 digunakan untuk melaporkan pengha
     </item>
     
     <item>
+      <title>Perubahan Tempat Pemusatan PPN Terutang</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/perubahan-tempat-pemusatan-ppn-terutang/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:05 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/perubahan-tempat-pemusatan-ppn-terutang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pemindahbukuan Pbk Saldo Deposit Mesin Teraan Meterai Digital</title>
       <link>https://pajakbalikpapan.github.io/direktori/pembayaran/pemindahbukuan-pbk-saldo-deposit-mesin-teraan-meterai-digital/</link>
       <pubDate>Sat, 16 Jan 2021 13:09:40 +0800</pubDate>
@@ -1142,6 +1122,15 @@ SPT Tahunan PPh Wajib Pajak Orang Pribadi 1770 digunakan untuk melaporkan pengha
       <description>elaporan SPT Tahunan PPh Orang Pribadi 1770 SS Kewajiban untuk melaporkan penghasilan selain dari usaha dan/atau pekerjaan bebas dengan jumlah penghasilan bruto tidak lebih dari Rp60.000.000,00 (enam puluh juta) setahun bagi Wajib Pajak orang pribadi.
 Prosedur Wajib Pajak orang pribadi menyampaikan SPT Tahunan:
  secara langsung; melalui pos dengan bukti pengiriman surat; atau dengan cara lain melalui:  perusahaan jasa ekspedisi atau jasa kurir dengan bukti pengiriman surat; atau saluran tertentu yang ditetapkan oleh Direktur Jenderal Pajak sesuai dengan perkembangan teknologi informasi meliputi:  laman Direktorat Jenderal Pajak; laman penyalur SPT elektronik; saluran suara digital yang ditetapkan oleh Direktur Jenderal Pajak untuk Wajib Pajak tertentu; jaringan komunikasi data yang terhubung khusus antara Direktorat Jenderal Pajak dengan Wajib Pajak; saluran lain yang ditetapkan oleh Direktur Jenderal Pajak.</description>
+    </item>
+    
+    <item>
+      <title>Perpanjangan Pemusatan Tempat PPN Terutang</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/perpanjangan-pemusatan-tempat-ppn-terutang/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:06 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/perpanjangan-pemusatan-tempat-ppn-terutang/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1163,6 +1152,17 @@ Prosedur Wajib Pajak orang pribadi menyampaikan SPT Tahunan:
     </item>
     
     <item>
+      <title>Legalisasi SKB PPh 21 22 23</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/legalisasi-skb-pph-21-22-23/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:39 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/legalisasi-skb-pph-21-22-23/</guid>
+      <description>Legalisasi Surat Keterangan Bebas PPh Pasal 21/22/23 Layanan ini diberikan kepada Wajib Pajak yang mengajukan permohonan legalisasi Surat Keterangan Bebas PPh Pasal 21/22/23 yang telah diterima oleh Wajib Pajak.
+Prosedur Wajib Pajak datang langsung ke KPP yang menerbitkan Surat Keterangan Bebas.
+Persyaratan dan Dokumen  surat permohonan legalisasi Surat Keterangan Beabs; menunjukan SKB Asli; fotokopi SKB.  Jangka Waktu Penyelesaian Paling lama 1 (satu) hari sejak permohonan legalisasi diterima</description>
+    </item>
+    
+    <item>
       <title>Pengembalian Atas Keputusan Putusan Keberatan  Banding PK Pasal 36 Pembetulan Pasal 16</title>
       <link>https://pajakbalikpapan.github.io/direktori/pembayaran/pengembalian-atas-keputusan-putusan-keberatan-banding-pk-pasal-36-pembetulan-pasal-16/</link>
       <pubDate>Sat, 16 Jan 2021 13:09:43 +0800</pubDate>
@@ -1179,6 +1179,17 @@ Prosedur Wajib Pajak orang pribadi menyampaikan SPT Tahunan:
       <guid>https://pajakbalikpapan.github.io/direktori/pelaporan-spt/pelaporan-spt-masa-pph-pasal-21-26/</guid>
       <description>Pelaporan SPT Masa PPh Pasal 21 dan/atau Pasal 26 Kewajiban untuk melaporkan pemotongan pajak atas penghasilan berupa gaji, upah, honorarium, tunjangan dan pembayaran lain dengan nama dan dalam bentuk apa pun sehubungan dengan pekerjaan atau jabatan, jasa, dan kegiatan yang dilakukan oleh orang pribadi subyek pajak dalam negeri.
 Prosedur Wajib Pajak orang pribadi atau badan wajib melaporkan PPh Pasal 21 dan/atau PPh Pasal 26 yang dipotong dengan menyampaikan SPT Masa PPh Pasal 21:</description>
+    </item>
+    
+    <item>
+      <title>Legalisasi Surat Keterangan Bebas PPh Pasal 21/22/23 terkait Peraturan Pemerintah Nomor 46 Tahun 2013</title>
+      <link>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/legalisasi-skb-pph-pasal-21-22-23-terkait-peraturan-pemerintah-nomor-46-tahun-2013/</link>
+      <pubDate>Sat, 16 Jan 2021 13:12:40 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.github.io/direktori/layanan-administrasi/legalisasi-skb-pph-pasal-21-22-23-terkait-peraturan-pemerintah-nomor-46-tahun-2013/</guid>
+      <description>Legalisasi Surat Keterangan Bebas PPh Pasal 21/22/23 terkait Peraturan Pemerintah Nomor 46 Tahun 2013 Layanan ini diberikan kepada Wajib Pajak yang mengajukan permohonan legalisasi Surat Keterangan Bebas PPh Pasal 21/22/23 terkait Peraturan Pemerintah Nomor 46 Tahun 2013 yang telah diterima Wajib Pajak.
+Prosedur Wajib Pajak datang langsung ke KPP yang menerbitkan Surat Keterangan Bebas.
+Persyaratan dan Dokumen  surat permohonan kepada Kepala KPP tempat Wajib Pajak menyampaikan kewajiban SPT Tahunan; menunjukkan Surat Keterangan Bebas; menyerahkan bukti penyetoran PPh yang bersifat final berdasarkan Peraturan Pemerintah Nomor 46 Tahun 2013 ; mengisi identitas Wajib Pajak pemotong dan/atau pemungut PPh dan nilai transaksi pada kolom yang tercantum dalam Surat Keterangan Bebas; ditandatangani oleh Wajib Pajak, atau dalam hal permohonan ditandatangani oleh bukan Wajib Pajak harus dilampiri dengan Surat Kuasa.</description>
     </item>
     
     <item>
