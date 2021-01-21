@@ -2,15 +2,13 @@
 <html lang="en-us">
 
 <head>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <meta name="generator" content="Hugo 0.75.1" />
 
   
-
-    
-    <link rel="stylesheet" href="/css/styles.min.735ff16d2ab36f5917d3ab8c8b93a8ebe43fa5a666f5ec05babaf9083cda03dd.css">
-
+  
+  
+  <link rel="stylesheet" href="/css/styles.min.d9fc6763aa4dff1bb130a0380e2dba5473d7929a4882d7bb20d61eb6f5649a84.css">
+  
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -63,6 +61,8 @@ Prosedur Wajib Pajak menyampaikan Surat Keberatan ke KPP tempat Wajib Pajak terd
 
   
   
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 
@@ -199,7 +199,21 @@ Prosedur Wajib Pajak menyampaikan Surat Keberatan ke KPP tempat Wajib Pajak terd
         Copyright © 2021 Balikpapan Tax All rights reserved.
       </p>
     </div>
-  </footer> </footer><script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
-</body>
+  </footer> </footer></body>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
+    integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww=="
+    crossorigin="anonymous"></script>
+  <script>
+    var options = {
+    "accuracy": {
+        "value": "exactly",
+        "limiters": [",", "."]
+    }
+};
+    var context = document.querySelector(".prose", "h2"); 
+    var instance = new Mark(context);
+    instance.mark("Wajib Pajak"); 
+  </script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
 </html>
