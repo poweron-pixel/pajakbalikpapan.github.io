@@ -7,7 +7,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/styles.min.c2a4b6063c397999411f02d8848da495071a42010d77b0bb123eadc6ee90ab7f.css">
+  <link rel="stylesheet" href="/css/styles.min.a8e5a822df40c3dcc03d3dcf2184b3aab9214ab720cac477cd80e9b864a0d5c1.css">
   
 
   <meta charset="utf-8">
@@ -73,7 +73,7 @@ Persyaratan dan Dokumen  surat permohonan legalisasi Surat Keterangan Beabs; men
   <div x-data="{ open: false }" class="relative overflow-hidden">
     <div class="max-w-7xl mx-auto">
       <div class="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-8">
-        <header> <div class="bg-gray-50 fixed z-50 w-full text-gray-700 border-b lg:px-20">
+        <header> <div class="sticky-nav bg-opacity-30 bg-gray-50 fixed z-50 w-full text-gray-700 border-b lg:px-20 py-4 mb-6">
   <div x-data="{ open: false }"
     class="flex flex-col max-w-screen-xl mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
     <div class="flex flex-row items-center justify-between p-2 ">
@@ -84,7 +84,7 @@ Persyaratan dan Dokumen  surat permohonan legalisasi Surat Keterangan Beabs; men
         </h1>
       </a>
       
-      
+
       <button class="rounded-xl md:hidden focus:outline-none fill-current text-gray-700" @click="open = !open">
         <svg class="text-gray-700 stroke-current" role="img" xmlns="http://www.w3.org/2000/svg" width="48px"
           height="48px" viewBox="0 0 24 24" aria-labelledby="statsIconTitle" stroke-width="2" stroke-linecap="square"
@@ -99,7 +99,7 @@ Persyaratan dan Dokumen  surat permohonan legalisasi Surat Keterangan Beabs; men
     <nav :class="{'flex': open, 'hidden': !open}"
       class="flex-col flex-grow hidden px-5 pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
       
-       
+
       <a class="font-bold text-sm inline-flex items-center p-3 text-black transition duration-500 ease-in-out transform rounded-xl md:w-auto focus:outline-none hover:text-blue-500 hover:text-bold"
         href="/featured/">
         Unggulan
@@ -115,12 +115,12 @@ Persyaratan dan Dokumen  surat permohonan legalisasi Surat Keterangan Beabs; men
         Harga Penawaran
       </a>
       
+      
       <a class="text-sm inline-flex items-center p-3 text-black transition duration-500 ease-in-out transform rounded-xl md:w-auto focus:outline-none hover:text-blue-500 hover:text-bold"
         href="/contact/">
-        Hubungi Kami
+        Kontak
       </a>
       
-
     </nav>
   </div>
 </div> </header></div>
@@ -203,19 +203,5 @@ Persyaratan dan Dokumen  surat permohonan legalisasi Surat Keterangan Beabs; men
     </div>
   </footer> </footer></body>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
-    integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww=="
-    crossorigin="anonymous"></script>
-  <script>
-    var options = {
-    "accuracy": {
-        "value": "exactly",
-        "limiters": [",", "."]
-    }
-};
-    var context = document.querySelector(".prose", "h2"); 
-    var instance = new Mark(context);
-    instance.mark("Wajib Pajak"); 
-  </script>
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
 </html>
