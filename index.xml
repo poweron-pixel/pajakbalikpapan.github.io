@@ -8,15 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Jan 2021 13:12:59 +0800</lastBuildDate><atom:link href="https://pajakbalikpapan.online/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pendaftaran NPWP</title>
-      <link>https://pajakbalikpapan.online/direktori/registrasi/pendaftaran-awal/</link>
-      <pubDate>Sat, 16 Jan 2021 11:07:53 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.online/direktori/registrasi/pendaftaran-awal/</guid>
-      <description>Layanan ini diberikan kepada Wajib Pajak yang telah memenuhi persyaratan subjektif dan objektif untuk memperoleh Nomor Pokok Wajib Pajak (NPWP)</description>
-    </item>
-    
-    <item>
       <title>Nomor Seri Faktur Pajak</title>
       <link>https://pajakbalikpapan.online/direktori/layanan-administrasi/nomor-seri-faktur-pajak/</link>
       <pubDate>Sat, 16 Jan 2021 13:12:29 +0800</pubDate>
@@ -303,6 +294,15 @@ Pencabutan pengukuhan PKP atas permohonan PKP, dilakukan berdasarkan hasil Pemer
     </item>
     
     <item>
+      <title>Pendaftaran NPWP</title>
+      <link>https://pajakbalikpapan.online/direktori/registrasi/pendaftaran-awal/</link>
+      <pubDate>Sat, 16 Jan 2021 11:07:56 +0800</pubDate>
+      
+      <guid>https://pajakbalikpapan.online/direktori/registrasi/pendaftaran-awal/</guid>
+      <description>Layanan ini diberikan kepada Wajib Pajak yang telah memenuhi persyaratan subjektif dan objektif untuk memperoleh Nomor Pokok Wajib Pajak (NPWP)</description>
+    </item>
+    
+    <item>
       <title>Penghapusan NPWP</title>
       <link>https://pajakbalikpapan.online/direktori/penghapusan/penghapusan-npwp/</link>
       <pubDate>Sat, 16 Jan 2021 11:07:56 +0800</pubDate>
@@ -408,14 +408,13 @@ Layanan ini termasuk  Pendaftaran Pengukuhan PKP Aktivasi Sertifikat Elektronik 
     </item>
     
     <item>
-      <title>Konfirmasi Status WP KSWP</title>
-      <link>https://pajakbalikpapan.online/direktori/layanan-administrasi/konfirmasi-status-wp-kswp/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:55 +0800</pubDate>
+      <title>Welcome to Kube</title>
+      <link>https://pajakbalikpapan.online/blog/welcome/</link>
+      <pubDate>Thu, 02 Mar 2017 21:56:55 +0100</pubDate>
       
-      <guid>https://pajakbalikpapan.online/direktori/layanan-administrasi/konfirmasi-status-wp-kswp/</guid>
-      <description>Layanan yang diberikan kepada Wajib Pajak dalam rangka pelaksanaan konfirmasi status Wajib Pajak atas layanan publik tertentu pada Instansi Pemerintah.
-Prosedur Wajib Pajak mengajukan permohonan ke KPP/KP2KP yang wilayah kerjanya meliputi tempat kedudukan Instansi Pemerintah, KPP/KP2KP tempat Wajib Pajak terdaftar, atau KPP/KP2KP terdekat dengan lokasi Instansi Pemerintah.
-Persyaratan dan Dokumen  surat permohonan keterangan status Wajib Pajak; nama Wajib Pajak dan NPWP sesuai dengan data dalam sistem informasi Direktorat Jenderal Pajak; telah menyampaikan SPT Tahunan PPh untuk 2 (dua) Tahun Pajak terakhir yang sudah menjadi kewajiban Wajib Pajak sesuai dengan ketentuan perundang-undangan.</description>
+      <guid>https://pajakbalikpapan.online/blog/welcome/</guid>
+      <description>Welcome to Kube – an open source documentation like theme for Hugo Hi there and welcome to kube - my two theme for the static site generator hugo. kube is open source and can be found on kube. This article is just a demo post and shows you the style of common used elements.
+Bear claw danish chocolate lollipop soufflé jelly. Apple pie chocolate cake jelly-o icing bonbon. Gingerbread pastry fruitcake muffin chocolate bar cheesecake.</description>
     </item>
     
     <item>
@@ -449,17 +448,6 @@ Prosedur Wajib Pajak mengajukan permohonan pengurangan angsuran PPh Pasal 25 kep
       <description>Layanan ini diberikan kepada Wajib Pajak yang mengajukan pencabutan permohonan keberatan.
 Prosedur Wajib Pajak menyampaikan pencabutan permohonan keberatan ke KPP tempat Wajib Pajak terdaftar dengan tembusan kepada Direktur Jenderal Pajak dan Kepala Kantor Wilayah DJP yang merupakan atasan Kepala KPP.
 Persyaratan dan Dokumen  permohonan pencabutan dilakukan sebelum tanggal diterima SPT Untuk Hadir oleh Wajib Pajak; permohonan harus diajukan secara tertulis dalam bahasa Indonesia dengan mencantumkan alasan pencabutan dan ditandatangani oleh Wajib Pajak; surat kuasa khusus, dalam hal surat permohonan tersebut ditandatangani bukan oleh Wajib Pajak.</description>
-    </item>
-    
-    <item>
-      <title>Surat Keterangan Fiskal</title>
-      <link>https://pajakbalikpapan.online/direktori/layanan-administrasi/surat-keterangan-fiskal/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:14 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.online/direktori/layanan-administrasi/surat-keterangan-fiskal/</guid>
-      <description>Layanan ini diberikan kepada Wajib Pajak yang mengajukan permohonan Surat Keterangan Fiskal (SKF) dalam rangka pengadaan barang dan/atau jasa untuk keperluan instansi pemerintah.
-Prosedur Wajib Pajak mengajukan permohonan SKF secara langsung KPP tempat Wajib Pajak terdaftar.
-Persyaratan dan Dokumen  surat permohonan SKF; telah menyampaikan SPT Tahunan PPh untuk Tahun Pajak terakhir dan melampirkan fotokopi SPT Tahunan PPh tersebut; fotokopi tanda terima pelaporan SPT Tahunan PPh untuk Tahun Pajak terakhir; fotokopi Surat Setoran Pajak PPh Pasal 29 untuk Tahun Pajak terakhir dalam hal terdapat pembayaran dan/atau fotokopi surat persetujuan mengangsur atau menunda pembayaran pajak yang terutang, dalam hal Wajib Pajak mengajukan permohonan menunda atau mengangsur pembayaran pajak yang terutang sebagaimana dimaksud dalam Pasal 9 ayat (4) Undang-Undang KUP; fotokopi Surat Pemberitahuan Pajak Terutang PBB Tahun Pajak terakhir, dalam hal kewenangan pemungutannya berada di Direktorat Jenderal Pajak; fotokopi Surat Tanda Terima Setoran Pajak Bumi dan Bangunan Tahun Pajak terakhir, dalam hal kewenangan pemungutannya berada di Direktorat Jenderal Pajak; telah menyampaikan SPT Masa untuk 3 (tiga) Masa Pajak terakhir dan melampirkan fotokopi SPT Masa tersebut; fotokopi bukti pelaporan SPT Masa untuk 3 (tiga) Masa Pajak terakhir; fotokopi Surat Setoran Pajak SPT Masa untuk 3 (tiga) Masa Pajak terakhir, dalam hal terdapat pembayaran dalam SPT Masa dimaksud; tidak sedang dilakukan penyidikan tindak pidana di bidang perpajakan dan membuat pernyataan bahwa tidak sedang dalam penyidikan tindak pidana di bidang perpajakan; tidak mempunyai utang pajak baik di KPP tempat Wajib Pajak Pusat terdaftar maupun di KPP tempat Wajib Pajak Cabang terdaftar, kecuali dalam hal Wajib Pajak mendapatkan izin untuk menunda atau mengangsur pembayaran pajak sebagaimana diatur dalam Pasal 9 ayat (4) Undang-Undang KUP, mengajukan keberatan sebagaimana diatur dalam Pasal 25 ayat (3a) Undang-Undang KUP, atau mengajukan banding sebagaimana diatur dalam Pasal 27 ayat (5a) Undang-Undang KUP.</description>
     </item>
     
     <item>
@@ -611,6 +599,15 @@ Persyaratan dan Dokumen  pencabutan harus diajukan secara tertulis dalam bahasa 
     </item>
     
     <item>
+      <title>Typography with kube</title>
+      <link>https://pajakbalikpapan.online/blog/typography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pajakbalikpapan.online/blog/typography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pemberian Imbalan Bunga</title>
       <link>https://pajakbalikpapan.online/direktori/pembayaran/pemberian-imbalan-bunga/</link>
       <pubDate>Sat, 16 Jan 2021 13:09:46 +0800</pubDate>
@@ -644,6 +641,16 @@ Persyaratan dan Dokumen  pencabutan harus diajukan secara tertulis dalam bahasa 
       
       <guid>https://pajakbalikpapan.online/direktori/pelaporan-spt/pelaporan-spt-tahunan-pph-1770-s/</guid>
       <description>Laporan Pajak untuk Orang Pribadi Karyawan</description>
+    </item>
+    
+    <item>
+      <title>Prototyping with markdown</title>
+      <link>https://pajakbalikpapan.online/blog/prototyping/</link>
+      <pubDate>Sun, 02 Apr 2017 22:01:15 +0100</pubDate>
+      
+      <guid>https://pajakbalikpapan.online/blog/prototyping/</guid>
+      <description>I have been working on a large set of documentation for a prototype that will eventually make it into a product. One issue with the publishing system at my company is that it makes doing prototypes, or really anything not within the rigidly and narrowly scoped model, difficult to set up. It takes a lot of work just to get to the point where you can begin writing.
+Since time was of the essence and writing is expensive, I decided to do the prototype outside of the publishing system.</description>
     </item>
     
     <item>
@@ -739,17 +746,6 @@ Persyaratan dan Dokumen  pemberitahuan perubahan tempat pemusatan PPN terutang m
       
       <guid>https://pajakbalikpapan.online/direktori/pembayaran/pengalihan-saldo-bea-meterai-dari-teknologi-percetakan-ke-sistem-komputerisasi/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Legalisasi SKB PPh 21 22 23</title>
-      <link>https://pajakbalikpapan.online/direktori/layanan-administrasi/legalisasi-skb-pph-21-22-23/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:39 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.online/direktori/layanan-administrasi/legalisasi-skb-pph-21-22-23/</guid>
-      <description>Layanan ini diberikan kepada Wajib Pajak yang mengajukan permohonan legalisasi Surat Keterangan Bebas PPh Pasal 21/22/23 yang telah diterima oleh Wajib Pajak.
-Prosedur Wajib Pajak datang langsung ke KPP yang menerbitkan Surat Keterangan Bebas.
-Persyaratan dan Dokumen  surat permohonan legalisasi Surat Keterangan Beabs; menunjukan SKB Asli; fotokopi SKB.  Jangka Waktu Penyelesaian Paling lama 1 (satu) hari sejak permohonan legalisasi diterima</description>
     </item>
     
     <item>
@@ -1117,6 +1113,15 @@ Jangka Waktu Penyelesaian Paling lama 15 (lima belas) hari kerja setelah tanggal
     </item>
     
     <item>
+      <title>Messages</title>
+      <link>https://pajakbalikpapan.online/blog/messages/</link>
+      <pubDate>Mon, 10 Apr 2017 16:41:34 +0100</pubDate>
+      
+      <guid>https://pajakbalikpapan.online/blog/messages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Klarifikasi Atas Penerbitan Keputusan DJP SKB Tentang Penetapan Status Suspend Terhadap WP Yang Terindikasi Menerbitkan Faktur Pajak Tidak Sah</title>
       <link>https://pajakbalikpapan.online/direktori/layanan-administrasi/klarifikasi-atas-penerbitan-keputusan-djpskb-tentang-penetapan-status-suspend-terhadap-wp-yang-terindikasi-menerbitkan-faktur-pajak-tidak-sah/</link>
       <pubDate>Sat, 16 Jan 2021 13:12:59 +0800</pubDate>
@@ -1382,16 +1387,6 @@ Persyaratan dan Dokumen  permohonan tertulis; fotokopi akta pendirian; fotokopi 
     </item>
     
     <item>
-      <title>Fasilitas Pengurangan PPh Badan Untuk Industri Pionir</title>
-      <link>https://pajakbalikpapan.online/direktori/layanan-administrasi/fasilitas-pengurangan-pphbadan-untuk-industri-pionir/</link>
-      <pubDate>Sat, 16 Jan 2021 13:12:02 +0800</pubDate>
-      
-      <guid>https://pajakbalikpapan.online/direktori/layanan-administrasi/fasilitas-pengurangan-pphbadan-untuk-industri-pionir/</guid>
-      <description>Layanan ini diberikan kepada Wajib Pajak badan yang melakukan penanaman modal baru yang merupakan Industri Pionir untuk memperoleh pengurangan PPh badan atas penghasilan yang diterima atau diperoleh dari Kegiatan Usaha Utama yang dilakukan. Untuk dapat memperoleh pengurangan PPh badan, Wajib Pajak badan harus memenuhi kriteria:
- merupakan Industri Pionir; merupakan penanaman modal baru; mempunyai nilai rencana penanaman modal baru minimal sebesar Rp500.000.000.000,00 (lima ratus miliar rupiah); memenuhi ketentuan besaran perbandingan antara utang dan modal sebagaimana dimaksud dalam Peraturan Menteri Keuangan yang mengatur mengenai penentuan besarnya perbandingan antara utang dan modal perusahaan untuk keperluan penghitungan Pajak Penghasilan; belum diterbitkan keputusan mengenai pemberian atau pemberitahuan mengenai penolakanpengurangan PPh badan oleh Menteri Keuangan; berstatus sebagai badan hukum Indonesia.</description>
-    </item>
-    
-    <item>
       <title>PKP Toko Retail Ya Berpartisipasi Dalam Skema Pengembalian PPN Kepada Orang Pribadi Pemegang Paspor Luar Negeri</title>
       <link>https://pajakbalikpapan.online/direktori/layanan-administrasi/pkp-toko-retail-ya-berpartisipasi-dalam-skema-pengembalian-ppn-kepada-orang-pribadi-pemegang-paspor-luar-negeri/</link>
       <pubDate>Sat, 16 Jan 2021 13:12:01 +0800</pubDate>
@@ -1473,12 +1468,30 @@ Persyaratan dan Dokumen  permohonan tertulis; fotokopi akta pendirian; fotokopi 
     </item>
     
     <item>
+      <title>Collapse</title>
+      <link>https://pajakbalikpapan.online/blog/collapse/</link>
+      <pubDate>Mon, 10 Apr 2017 16:42:50 +0100</pubDate>
+      
+      <guid>https://pajakbalikpapan.online/blog/collapse/</guid>
+      <description>&amp;lt;divid=&amp;ldquo;my-collapse-api&amp;rdquo;data-component=&amp;ldquo;collapse&amp;rdquo;&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;href&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;#box-1&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-toggle&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-box hide&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;box-1&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;href&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;#box-2&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-toggle&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-box hide&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;box-2&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;href&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;#box-3&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-toggle&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-box hide&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;box-3&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;.</description>
+    </item>
+    
+    <item>
       <title>Rencana Kebutuhan Impor Dan Perolehan Perubahan</title>
       <link>https://pajakbalikpapan.online/direktori/layanan-administrasi/rencana-kebutuhan-impor-dan-perolehan-perubahan/</link>
       <pubDate>Sat, 16 Jan 2021 13:12:27 +0800</pubDate>
       
       <guid>https://pajakbalikpapan.online/direktori/layanan-administrasi/rencana-kebutuhan-impor-dan-perolehan-perubahan/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Inline 🐣Text Styles</title>
+      <link>https://pajakbalikpapan.online/blog/inline-style/</link>
+      <pubDate>Sun, 02 Apr 2017 21:56:55 +0100</pubDate>
+      
+      <guid>https://pajakbalikpapan.online/blog/inline-style/</guid>
+      <description>Chocolate tiramisu pastry a link cotton candy sesame snaps. Dessert cake chocolate bar a bold part sugar plum bonbon marshmallow lollipop toffee soufflé. Donut caramels chocolate bar. Oat cake cookie a marked part cheesecake donut. Jelly-o $code marzipan cake. Bonbon sesame snaps chocolate an italic part oat cake pudding sweet roll caramels bonbon. Soufflé muffin 👻 gummies sugar plum dessert bonbon bear claw. Sweet ice cream jujubes. Marzipan sugar plum pastry chocolate ⌘+A bar fruitcake.</description>
     </item>
     
     <item>
