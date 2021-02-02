@@ -25,13 +25,9 @@ b,strong{
   font-weight:bolder;
 }
 
-code,pre{
+pre{
   font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
   font-size:1em;
-}
-
-small{
-  font-size:80%;
 }
 
 sup{
@@ -58,17 +54,8 @@ button{
   text-transform:none;
 }
 
-[type=button],[type=submit],button{
+[type=button],button{
   -webkit-appearance:button;
-}
-
-progress{
-  vertical-align:baseline;
-}
-
-[type=search]{
-  -webkit-appearance:textfield;
-  outline-offset:-2px;
 }
 
 summary{
@@ -142,16 +129,16 @@ button,optgroup{
   color:inherit;
 }
 
-code,pre{
+pre{
   font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
 }
 
-img,object,svg,video{
+img,svg{
   display:block;
   vertical-align:middle;
 }
 
-img,video{
+img{
   max-width:100%;
   height:auto;
 }
@@ -220,14 +207,6 @@ img,video{
 
 .prose ol[type=a]{
   --list-counter-style:lower-alpha;
-}
-
-.prose ol[type=I]{
-  --list-counter-style:upper-roman;
-}
-
-.prose ol[type=i]{
-  --list-counter-style:lower-roman;
 }
 
 .prose ol[type="1"]{
@@ -333,46 +312,19 @@ img,video{
   margin-top:.8571429em;
 }
 
-.prose code{
-  color:#111827;
-  font-weight:600;
-  font-size:.875em;
-}
-
-.prose code:after,.prose code:before{
-  content:"`";
-}
-
-.prose a code{
-  color:#111827;
-}
-
 .prose pre{
   color:#e5e7eb;
   background-color:#1f2937;
   overflow-x:auto;
-  font-size:.875em;
-  line-height:1.7142857;
   margin-top:1.7142857em;
   margin-bottom:1.7142857em;
   border-radius:.375rem;
   padding:.8571429em 1.1428571em;
 }
 
-.prose pre code{
-  background-color:transparent;
-  border-width:0;
-  border-radius:0;
-  padding:0;
-  font-weight:400;
-  color:inherit;
-  font-size:inherit;
-  font-family:inherit;
-  line-height:inherit;
-}
-
-.prose pre code:after,.prose pre code:before{
-  content:none;
+.prose pre,.prose table{
+  font-size:.875em;
+  line-height:1.7142857;
 }
 
 .prose table{
@@ -381,8 +333,6 @@ img,video{
   text-align:left;
   margin-top:2em;
   margin-bottom:2em;
-  font-size:.875em;
-  line-height:1.7142857;
 }
 
 .prose thead{
@@ -423,7 +373,7 @@ img,video{
   margin-bottom:1.25em;
 }
 
-.prose figure,.prose img,.prose video{
+.prose figure,.prose img{
   margin-top:2em;
   margin-bottom:2em;
 }
@@ -431,14 +381,6 @@ img,video{
 .prose figure>*{
   margin-top:0;
   margin-bottom:0;
-}
-
-.prose h2 code{
-  font-size:.875em;
-}
-
-.prose h3 code{
-  font-size:.9em;
 }
 
 .prose ol,.prose ul{
@@ -555,7 +497,7 @@ img,video{
   line-height:1.4285714;
 }
 
-.prose-sm figure,.prose-sm img,.prose-sm video{
+.prose-sm figure,.prose-sm img{
   margin-top:1.7142857em;
   margin-bottom:1.7142857em;
 }
@@ -569,18 +511,6 @@ img,video{
   font-size:.8571429em;
   line-height:1.3333333;
   margin-top:.6666667em;
-}
-
-.prose-sm code{
-  font-size:.8571429em;
-}
-
-.prose-sm h2 code{
-  font-size:.9em;
-}
-
-.prose-sm h3 code{
-  font-size:.8888889em;
 }
 
 .prose-sm pre{
@@ -840,10 +770,6 @@ mark{
 
 .bg-opacity-30{
   --tw-bg-opacity:0.3 !important;
-}
-
-.border-collapse{
-  border-collapse:collapse !important;
 }
 
 .border-gray-100{
@@ -1375,10 +1301,6 @@ mark{
   position:fixed !important;
 }
 
-.absolute{
-  position:absolute !important;
-}
-
 .relative{
   position:relative !important;
 }
@@ -1728,14 +1650,6 @@ mark{
     --list-counter-style:lower-alpha;
   }
 
-  .sm\:prose ol[type=I]{
-    --list-counter-style:upper-roman;
-  }
-
-  .sm\:prose ol[type=i]{
-    --list-counter-style:lower-roman;
-  }
-
   .sm\:prose ol[type="1"]{
     --list-counter-style:decimal;
   }
@@ -1839,46 +1753,19 @@ mark{
     margin-top:.8571429em;
   }
 
-  .sm\:prose code{
-    color:#111827;
-    font-weight:600;
-    font-size:.875em;
-  }
-
-  .sm\:prose code:after,.sm\:prose code:before{
-    content:"`";
-  }
-
-  .sm\:prose a code{
-    color:#111827;
-  }
-
   .sm\:prose pre{
     color:#e5e7eb;
     background-color:#1f2937;
     overflow-x:auto;
-    font-size:.875em;
-    line-height:1.7142857;
     margin-top:1.7142857em;
     margin-bottom:1.7142857em;
     border-radius:.375rem;
     padding:.8571429em 1.1428571em;
   }
 
-  .sm\:prose pre code{
-    background-color:transparent;
-    border-width:0;
-    border-radius:0;
-    padding:0;
-    font-weight:400;
-    color:inherit;
-    font-size:inherit;
-    font-family:inherit;
-    line-height:inherit;
-  }
-
-  .sm\:prose pre code:after,.sm\:prose pre code:before{
-    content:none;
+  .sm\:prose pre,.sm\:prose table{
+    font-size:.875em;
+    line-height:1.7142857;
   }
 
   .sm\:prose table{
@@ -1887,8 +1774,6 @@ mark{
     text-align:left;
     margin-top:2em;
     margin-bottom:2em;
-    font-size:.875em;
-    line-height:1.7142857;
   }
 
   .sm\:prose thead{
@@ -1929,7 +1814,7 @@ mark{
     margin-bottom:1.25em;
   }
 
-  .sm\:prose figure,.sm\:prose img,.sm\:prose video{
+  .sm\:prose figure,.sm\:prose img{
     margin-top:2em;
     margin-bottom:2em;
   }
@@ -1937,14 +1822,6 @@ mark{
   .sm\:prose figure>*{
     margin-top:0;
     margin-bottom:0;
-  }
-
-  .sm\:prose h2 code{
-    font-size:.875em;
-  }
-
-  .sm\:prose h3 code{
-    font-size:.9em;
   }
 
   .sm\:prose ol,.sm\:prose ul{
@@ -2322,7 +2199,7 @@ mark{
     line-height:1.6;
   }
 
-  .lg\:prose-xl figure,.lg\:prose-xl img,.lg\:prose-xl video{
+  .lg\:prose-xl figure,.lg\:prose-xl img{
     margin-top:2em;
     margin-bottom:2em;
   }
@@ -2338,19 +2215,8 @@ mark{
     margin-top:1em;
   }
 
-  .lg\:prose-xl code{
-    font-size:.9em;
-  }
-
-  .lg\:prose-xl h2 code{
-    font-size:.8611111em;
-  }
-
-  .lg\:prose-xl h3 code,.lg\:prose-xl pre{
-    font-size:.9em;
-  }
-
   .lg\:prose-xl pre{
+    font-size:.9em;
     line-height:1.7777778;
     margin-top:2em;
     margin-bottom:2em;
