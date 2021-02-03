@@ -1988,6 +1988,10 @@ mark{
     display:block !important;
   }
 
+  .md\:inline-block{
+    display:inline-block !important;
+  }
+
   .md\:flex{
     display:flex !important;
   }
@@ -2018,6 +2022,11 @@ mark{
 
   .md\:justify-between{
     justify-content:space-between !important;
+  }
+
+  .md\:text-lg{
+    font-size:1.125rem !important;
+    line-height:1.75rem !important;
   }
 
   .md\:text-4xl{
